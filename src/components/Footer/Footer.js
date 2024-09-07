@@ -1,4 +1,4 @@
-
+ 
 import React from "react";
 import { Link } from "react-router-dom";
 // reactstrap components
@@ -19,7 +19,7 @@ export default function Footer() {
       <Container>
         <Row>
           <Col md="3">
-            <h1 className="title">BLK•</h1>
+            <h1 className="title">Chi-Send</h1>
           </Col>
           <Col md="3">
             <Nav>
@@ -30,17 +30,17 @@ export default function Footer() {
               </NavItem>
               <NavItem>
                 <NavLink to="/landing-page" tag={Link}>
-                  Landing
+                  Services
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink to="/register-page" tag={Link}>
-                  Register
+                  About Us
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink to="/profile-page" tag={Link}>
-                  Profile
+                  Portfolio
                 </NavLink>
               </NavItem>
             </Nav>
@@ -49,24 +49,20 @@ export default function Footer() {
             <Nav>
               <NavItem>
                 <NavLink href="https://creative-tim.com/contact-us?ref=blkdsr-footer">
-                  Contact Us
+             Why Us
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="https://creative-tim.com/about-us?ref=blkdsr-footer">
-                  About Us
+                  Testimonies
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="https://creative-tim.com/blog?ref=blkdsr-footer">
-                  Blog
+                  Contact Us
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink href="https://opensource.org/licenses/MIT">
-                  License
-                </NavLink>
-              </NavItem>
+          
             </Nav>
           </Col>
           <Col md="3">

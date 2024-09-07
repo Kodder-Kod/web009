@@ -20,6 +20,14 @@ import {
   UncontrolledTooltip,
 } from "reactstrap";
 
+import { SiTicktick } from "react-icons/si";
+import { BsInfoCircle } from "react-icons/bs";
+import { AiOutlineMessage } from "react-icons/ai";
+import { GrServices } from "react-icons/gr";
+import { FaPeopleGroup } from "react-icons/fa6";
+import { FaHome } from "react-icons/fa";
+import { MdOutlineDashboardCustomize } from "react-icons/md";
+
 export default function IndexNavbar() {
   const [collapseOpen, setCollapseOpen] = React.useState(false);
   const [collapseOut, setCollapseOut] = React.useState("");
@@ -62,12 +70,21 @@ export default function IndexNavbar() {
     <Navbar className={"fixed-top " + color} color-on-scroll="100" expand="lg">
       <Container>
         <div className="navbar-translate">
+
+        <img
+              alt="..."
+              className="path"
+              style={{width : 200, height: 200, borderRadius:20}}
+              src={require("../../assets/img/kanairo/chi-send.png")} />
+
           <NavbarBrand to="/" tag={Link} id="navbar-brand">
-            <span>BLK• </span>
-            Design System React
+
+        
+            <span>Chi-send </span>
+
           </NavbarBrand>
           <UncontrolledTooltip placement="bottom" target="navbar-brand">
-            Designed and Coded by Creative Tim
+
           </UncontrolledTooltip>
           <button
             aria-expanded={collapseOpen}
@@ -89,8 +106,8 @@ export default function IndexNavbar() {
           <div className="navbar-collapse-header">
             <Row>
               <Col className="collapse-brand" xs="6">
-                <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                  BLK•React
+                <a href="#about" onClick={(e) => e.preventDefault()}>
+                  CHI-SEND
                 </a>
               </Col>
               <Col className="collapse-close text-right" xs="6">
@@ -104,8 +121,9 @@ export default function IndexNavbar() {
               </Col>
             </Row>
           </div>
-          <Nav navbar>
-            <NavItem className="p-0">
+
+
+          {/**     <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
                 href="https://twitter.com/CreativeTim"
@@ -140,8 +158,53 @@ export default function IndexNavbar() {
                 <i className="fab fa-instagram" />
                 <p className="d-lg-none d-xl-none">Instagram</p>
               </NavLink>
+            </NavItem> */}
+
+          <Nav navbar>
+
+            <NavItem className="active">
+              <NavLink href="#Home" >
+                <FaHome style={{ margin: 3 }} />
+                Home
+              </NavLink>
             </NavItem>
+            <NavItem className="active">
+              <NavLink href="/services">
+                <GrServices style={{ margin: 3 }} />
+                Services
+              </NavLink>
+            </NavItem>
+            <NavItem className="active">
+              <NavLink href="#about">
+                <BsInfoCircle style={{ margin: 3 }} />
+                About us
+              </NavLink>
+            </NavItem>
+
+            <NavItem className="active">
+              <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                <SiTicktick style={{ margin: 3 }} />
+                Experience
+              </NavLink>
+            </NavItem>
+            <NavItem className="active">
+              <NavLink href="#about" onClick={(e) => e.preventDefault()}>
+                <FaPeopleGroup style={{ margin: 3 }} />
+                Reviews
+              </NavLink>
+            </NavItem>
+            <NavItem className="active">
+              <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                <AiOutlineMessage style={{ margin: 3 }} />
+                Contact
+              </NavLink>
+            </NavItem>
+
+            {/**
+         * 
+         * 
             <UncontrolledDropdown nav>
+
               <DropdownToggle
                 caret
                 color="default"
@@ -154,10 +217,6 @@ export default function IndexNavbar() {
                 Getting started
               </DropdownToggle>
               <DropdownMenu className="dropdown-with-icons">
-                <DropdownItem href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/overview">
-                  <i className="tim-icons icon-paper" />
-                  Documentation
-                </DropdownItem>
                 <DropdownItem tag={Link} to="/register-page">
                   <i className="tim-icons icon-bullet-list-67" />
                   Register Page
@@ -171,8 +230,13 @@ export default function IndexNavbar() {
                   Profile Page
                 </DropdownItem>
               </DropdownMenu>
+
             </UncontrolledDropdown>
-            <NavItem>
+         * 
+        */}
+
+            {/**
+ *   <NavItem>
               <Button
                 className="nav-link d-none d-lg-block"
                 color="primary"
@@ -191,6 +255,8 @@ export default function IndexNavbar() {
                 <i className="tim-icons icon-cloud-download-93" /> Download
               </Button>
             </NavItem>
+*/}
+
           </Nav>
         </Collapse>
       </Container>
