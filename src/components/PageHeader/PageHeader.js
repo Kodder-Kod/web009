@@ -525,9 +525,9 @@ export default function PageHeader() {
             Portfolio
           </Typography>
           <Typography variant="lead" className="text-white lg:w-6/12">
-  A comprehensive selection of courses designed to empower you with the
-  skills you need to thrive in the dynamic world of web development.
-</Typography>
+            A comprehensive selection of courses designed to empower you with the
+            skills you need to thrive in the dynamic world of web development.
+          </Typography>
 
         </div>
         <div style={{ display: "flex", justifyContent: 'center', alignItems: 'center', }}>
@@ -535,7 +535,7 @@ export default function PageHeader() {
             <Card
               color="gray"
               className="  place-items-center overflow-hidden text-center"
-              style={{ height: 490, width: 400, margin: 10, borderRadius: 20, alignItems:"center", justifyContent:'center' }}>
+              style={{ height: 490, width: 400, margin: 10, borderRadius: 20, alignItems: "center", justifyContent: 'center' }}>
 
               <img
                 width={250}
@@ -553,8 +553,8 @@ export default function PageHeader() {
                   Tender Management App /Event planning App
                 </Typography>
 
-              
-                <Button size="sm" color="white"   className="mt-5 mb-5" >
+
+                <Button size="sm" color="white" className="mt-5 mb-5" >
                   Order Now
                 </Button>
               </CardBody>
