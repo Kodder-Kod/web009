@@ -38,40 +38,35 @@ const ContactApi = () => {
 
     const sendMessage = async () => {
 
-        if (userName && phone && email && message) {
+        try {
+            const dbRef = ref(db, `Chisendwebsite/messages/`);
 
-            try {
-                const dbRef = ref(db, `Chisendwebsite/messages/`);
+            const newbranchRef = push(dbRef, {
 
-                const newbranchRef = push(dbRef, {
+                Name: userName,
+                Email: email,
+                Phone: phone,
+                Meassge: message,
 
-                    Name: userName,
-                    Email: email,
-                    Phone: phone,
-                    Meassge: message,
+            });
 
-                });
+            const newCreditKey = newbranchRef.key;
 
-                const newCreditKey = newbranchRef.key;
+            setUserName("")
+            setPhone("")
+            setEmail("")
+            setMessage("")
+            alert("Message sent successfully!");
 
-                setUserName("")
-                setPhone("")
-                setEmail("")
-                setMessage("")
-                alert("Message sent successfully!");
+        }
+        catch (error) {
 
-            }
-            catch (error) {
-
-                console.error("Error sending message: ", error);
-                alert("Failed to send message. Try again.");
-            }
+            console.error("Error sending message: ", error);
+            alert("Failed to send message. Try again.");
         }
 
-        else {
 
-            alert("Fill all fields.");
-        }
+
 
     };
 
