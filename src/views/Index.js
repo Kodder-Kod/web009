@@ -32,7 +32,6 @@ export default function Index() {
       <IndexNavbar />
       <div className="wrapper">
         <PageHeader />
-       
         <Footer />
       </div>
     </>

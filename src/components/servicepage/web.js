@@ -11,7 +11,7 @@ import DashboardIcon from '@mui/icons-material/Dashboard';
 import LanIcon from '@mui/icons-material/Lan';
 import { FaHandsHelping } from "react-icons/fa";
 import ApiIcon from '@mui/icons-material/Api';
-import CategoryCard from  "../../components/client/page";
+import CategoryCard from "../../components/client/page";
 import StorageIcon from '@mui/icons-material/Storage';
 import WebhookIcon from '@mui/icons-material/Webhook';
 import BugReportIcon from '@mui/icons-material/BugReport';
@@ -27,7 +27,7 @@ import { AiFillAndroid } from "react-icons/ai";
 
 
 // react plugin used to create charts
- 
+
 // reactstrap components
 import {
     //  Button,
@@ -84,11 +84,11 @@ import {
 // core components
 
 import { Stack } from "@mui/system";
-import ExamplesNavbar from  "../../components/Navbars/ExamplesNavbar.js";
-import Footer from  "../../components/Footer/Footer.js";
-import Services from  '../../components/PageHeader/Services';
-import IndexNavbar from  '../../components/Navbars/IndexNavbar';
-import ContactApi from  '../../components/PageHeader/Contact';
+import ExamplesNavbar from "../../components/Navbars/ExamplesNavbar.js";
+import Footer from "../../components/Footer/Footer.js";
+import Services from '../../components/PageHeader/Services';
+import IndexNavbar from '../../components/Navbars/IndexNavbar';
+import ContactApi from '../../components/PageHeader/Contact';
 
 const CATEGORIES = [
     {
@@ -184,32 +184,32 @@ const Web = () => {
                 <img
                     alt="..."
                     className="path"
-                     src={require("../../assets/img/blob.png")}
+                    src={require("../../assets/img/blob.png")}
                 />
                 <img
                     alt="..."
                     className="path2"
-                     src={require("../../assets/img/path2.png")}
+                    src={require("../../assets/img/path2.png")}
                 />
                 <img
                     alt="..."
                     className="shapes triangle"
-                     src={require("../../assets/img/triunghiuri.png")}
+                    src={require("../../assets/img/triunghiuri.png")}
                 />
                 <img
                     alt="..."
                     className="shapes wave"
-                     src={require("../../assets/img/waves.png")}
+                    src={require("../../assets/img/waves.png")}
                 />
                 <img
                     alt="..."
                     className="shapes squares"
-                     src={require("../../assets/img/patrat.png")}
+                    src={require("../../assets/img/patrat.png")}
                 />
                 <img
                     alt="..."
                     className="shapes circle"
-                     src={require("../../assets/img/cercuri.png")}
+                    src={require("../../assets/img/cercuri.png")}
                 />
                 <div className="content-center">
                     <Row className="row-grid justify-content-between align-items-center text-left">
@@ -263,11 +263,11 @@ const Web = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg="4" md="5">
+                        <Col lg="6" md="6">
                             <img
                                 alt="..."
                                 className="img-fluid"
-                                 src={require("../../assets/img/etherum.png")}
+                                src={require("../../assets/img/services/webpage.png")}
                             />
                         </Col>
                     </Row>
@@ -298,14 +298,14 @@ const Web = () => {
                     >
 
 
-<div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8 ">
-    <h3 className="sm:text-4xl semibold text-white text-center" style={{ fontSize: 30, fontWeight: "bold" }}>
-        Tailored Web & App Development
-    </h3>
-    <h3 className="sm:text-xl font-semibold text-white text-center mb-5" style={{ fontSize: 16 }}>
-        Stand out with custom web and app development designed to fit your unique business needs. Our expert team combines creativity and technical skill to deliver top-notch functionality and user experience. From initial design to final deployment, we provide end-to-end solutions including Ads, API Development, Hosting, Testing, and Web Security. Let us help you create a powerful digital presence that drives success.
-    </h3>
-</div>
+                        <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8 ">
+                            <h3 className="sm:text-4xl semibold text-white text-center" style={{ fontSize: 30, fontWeight: "bold" }}>
+                                Tailored Web & App Development
+                            </h3>
+                            <h3 className="sm:text-xl font-semibold text-white text-center mb-5" style={{ fontSize: 16 }}>
+                                Stand out with custom web and app development designed to fit your unique business needs. Our expert team combines creativity and technical skill to deliver top-notch functionality and user experience. From initial design to final deployment, we provide end-to-end solutions including Ads, API Development, Hosting, Testing, and Web Security. Let us help you create a powerful digital presence that drives success.
+                            </h3>
+                        </div>
 
 
 
@@ -378,158 +378,41 @@ const Web = () => {
                                 <Col lg="4">
                                     <div style={{ margin: 20 }} >
                                         <div className="icon icon-primary" style={{ marginBottom: 10 }}>
-                                       
+
                                             <ApiIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Tailored Solution</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
                                         <p style={{ marginBottom: 20 }} >
-                                        Specifically designed to meet your unique business needs, ensuring optimal functionality.
+                                            Specifically designed to meet your unique business needs, ensuring optimal functionality.
                                         </p>
                                     </div>
                                 </Col>
                                 <Col lg="4">
                                     <div style={{ margin: 20 }} >
                                         <div className="icon icon-warning" style={{ marginBottom: 10 }}>
-                                        <WebIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
+                                            <WebIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>Enhanced User Experience:</h4>
                                         <hr className="line-warning" style={{ marginBottom: 20 }} />
                                         <p style={{ marginBottom: 20 }}>
-                                        Custom development focuses on intuitive design and efficient performance, improving user satisfaction.
+                                            Custom development focuses on intuitive design and efficient performance, improving user satisfaction.
                                         </p>
                                     </div>
                                 </Col>
                                 <Col lg="4">
                                     <div style={{ margin: 20 }}  >
                                         <div className="icon icon-success" style={{ marginBottom: 20 }}>
-                                        <ManageHistoryIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
+                                            <ManageHistoryIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>Comprehensive Services</h4>
                                         <hr className="line-success" style={{ marginBottom: 20 }} />
                                         <p style={{ marginBottom: 20 }}>
-                                        From initial design to deployment, includes API development, testing, and robust security measures for a complete solution.
+                                            From initial design to deployment, includes API development, testing, and robust security measures for a complete solution.
                                         </p>
                                     </div>
                                 </Col>
                             </Row>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
-
-
-          
-
-
-            <section >
-
-                <Container>
-                    <Row style={{ display: "flex", alignItems: "center", justifyContent: 'center' }} >
-                        <Col md="4" style={{ marginTop: 100 }}>
-                            <h1>
-                                Pricing
-                                <hr className="line-info" />
-                            </h1>
-                        </Col>
-                    </Row>
-
-                    <Row style={{ marginTop: 120, marginBottom: 60 }}>
-                        <Col md="4">
-                            <Card className="card-coin card-plain">
-                                <CardHeader>
-                                    <img
-                                        alt="..."
-                                        className="img-center img-fluid"
-                                         src={require("../../assets/img/bitcoin.png")}
-                                    />
-                                </CardHeader>
-                                <CardBody>
-                                    <Row>
-                                        <Col className="text-center" md="12">
-                                            <h4 className="text-uppercase">Light Coin</h4>
-                                            <span>Plan</span>
-                                            <hr className="line-primary" />
-                                        </Col>
-                                    </Row>
-                                    <Row>
-                                        <ListGroup>
-                                            <ListGroupItem>50 messages</ListGroupItem>
-                                            <ListGroupItem>100 emails</ListGroupItem>
-                                            <ListGroupItem>24/7 Support</ListGroupItem>
-                                        </ListGroup>
-                                    </Row>
-                                </CardBody>
-                                <CardFooter className="text-center">
-                                    <Button className="btn-simple" color="primary">
-                                        Get plan
-                                    </Button>
-                                </CardFooter>
-                            </Card>
-                        </Col>
-                        <Col md="4">
-                            <Card className="card-coin card-plain">
-                                <CardHeader>
-                                    <img
-                                        alt="..."
-                                        className="img-center img-fluid"
-                                         src={require("../../assets/img/etherum.png")}
-                                    />
-                                </CardHeader>
-                                <CardBody>
-                                    <Row>
-                                        <Col className="text-center" md="12">
-                                            <h4 className="text-uppercase">Dark Coin</h4>
-                                            <span>Plan</span>
-                                            <hr className="line-success" />
-                                        </Col>
-                                    </Row>
-                                    <Row>
-                                        <ListGroup>
-                                            <ListGroupItem>150 messages</ListGroupItem>
-                                            <ListGroupItem>1000 emails</ListGroupItem>
-                                            <ListGroupItem>24/7 Support</ListGroupItem>
-                                        </ListGroup>
-                                    </Row>
-                                </CardBody>
-                                <CardFooter className="text-center">
-                                    <Button className="btn-simple" color="success">
-                                        Get plan
-                                    </Button>
-                                </CardFooter>
-                            </Card>
-                        </Col>
-                        <Col md="4">
-                            <Card className="card-coin card-plain">
-                                <CardHeader>
-                                    <img
-                                        alt="..."
-                                        className="img-center img-fluid"
-                                         src={require("../../assets/img/ripp.png")}
-                                    />
-                                </CardHeader>
-                                <CardBody>
-                                    <Row>
-                                        <Col className="text-center" md="12">
-                                            <h4 className="text-uppercase">Bright Coin</h4>
-                                            <span>Plan</span>
-                                            <hr className="line-info" />
-                                        </Col>
-                                    </Row>
-                                    <Row>
-                                        <ListGroup>
-                                            <ListGroupItem>350 messages</ListGroupItem>
-                                            <ListGroupItem>10K emails</ListGroupItem>
-                                            <ListGroupItem>24/7 Support</ListGroupItem>
-                                        </ListGroup>
-                                    </Row>
-                                </CardBody>
-                                <CardFooter className="text-center">
-                                    <Button className="btn-simple" color="info">
-                                        Get plan
-                                    </Button>
-                                </CardFooter>
-                            </Card>
                         </Col>
                     </Row>
                 </Container>

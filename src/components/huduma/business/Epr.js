@@ -25,7 +25,7 @@ import { FaDatabase } from "react-icons/fa";
 import { AiFillAndroid } from "react-icons/ai";
 
 // react plugin used to create charts
- 
+
 // reactstrap components
 import {
     //  Button,
@@ -86,74 +86,53 @@ import Services from '../../../components/PageHeader/Services';
 import IndexNavbar from '../../../components/Navbars/IndexNavbar';
 import ContactApi from '../../../components/PageHeader/Contact';
 
-const CATEGORIES = [
+const pricingPlans = [
     {
-        img: "#",
-        icon: <AiFillAndroid />,
-        title: "Frontend Web Development",
-        desc: "300 Courses",
+        title: "Basic Plan",
+        description: "Entry Plan",
+        price: "Ksh 1000/month",
+        features: [
+            "Basic Reporting",
+            "Data Storage (50GB)",
+            "Email Support",
+            "Single User Access"
+        ],
+        img: require("../../../assets/img/bitcoin.png"),
+        buttonColor: "primary"
     },
     {
-        img: '../image/blogs/blog-12.jpeg',
-        icon: <AiFillAndroid />,
-        title: "Backend Web Development",
-        desc: "200 Courses",
+        title: "Intermediate Plan",
+        description: "Best Value",
+        price: "Ksh 2000/month",
+        features: [
+            "Advanced Reporting",
+            "Data Storage (200GB)",
+            "24/7 Email Support",
+            "Multiple User Access",
+            "Custom Dashboards",
+            "API Integrations"
+        ],
+        img: require("../../../assets/img/etherum.png"),
+        buttonColor: "success"
     },
     {
-        img: './image/blogs/blog-10.jpeg',
-        icon: <AiFillAndroid />,
-        title: "Web Security & Performance",
-        desc: "240 Courses",
-    },
-    {
-        img: '../image/blogs/blog-13.png',
-        icon: <AiFillAndroid />,
-        title: "Full-Stack Web Development",
-        desc: "100 Courses",
-    },
-];
-
-
-
-const items = [
-    {
-        icon: <IoBusiness style={{ color: "#00bbff", fontSize: 50 }} />,
-        title: 'Get Business Solutions',
-        description:
-            "Transform your business with our custom software solutions such as POS, CRM, Payroll, ERP, and e-commerce systems."
-    },
-    {
-        icon: <DashboardIcon style={{ color: "#00bbff", fontSize: 50 }} />,
-        title: 'Management Systems',
-        description:
-            "Manage your organization effectively with our comprehensive systems, covering hospitals, schools, assets, warehouses, hotels, and more."
-    },
-    {
-        icon: <LanguageIcon style={{ color: "#00bbff", fontSize: 50 }} />,
-        title: 'Custom Web / App Development',
-        description:
-            'Create a unique presence with custom web and app development. Our creativity and expertise ensure the best functionality and experience.'
-    },
-    {
-        icon: <FaDatabase style={{ color: "#00bbff", fontSize: 50 }} />,
-        title: 'Data Management and Data Science ',
-        description:
-            "Harness data with advanced analytics, covering visualization, predictive modeling, DBMS, and migration for comprehensive management."
-    },
-    {
-        icon: <IoWifiSharp style={{ color: "#00bbff", fontSize: 50 }} />,
-        title: 'Internet and Routing Services',
-        description:
-            "Optimize networks with routing, internet services, CCTV, and biometrics. We design secure, scalable networks for seamless operations."
-    },
-    {
-        icon: <SupportAgentRoundedIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
-        title: 'e-Cyber Services and IT Consulting',
-        description:
-            'Ensure smooth IT operations with our help desk and consulting providing 24/7 support for e-citizen, tax management,document handling etc.'
+        title: "Advanced Plan",
+        description: "Premium Plan",
+        price: "Ksh 3000/month",
+        features: [
+            "Custom Reporting & Analytics",
+            "Unlimited Data Storage",
+            "Priority Support (24/7)",
+            "Multi-User Access (Unlimited)",
+            "Dedicated Account Manager",
+            "Custom Dashboards",
+            "Full API Integrations",
+            "Custom Modules & Add-ons"
+        ],
+        img: require("../../../assets/img/ripp.png"),
+        buttonColor: "info"
     },
 ];
-
 
 
 const Epr = () => {
@@ -205,10 +184,10 @@ const Epr = () => {
                     <Row className="row-grid justify-content-between align-items-center text-left">
                         <Col lg="6" md="6">
                             <h1 className="text-white">
-                            Enterprise Resource Planning (ERP)
+                                Enterprise Resource Planning (ERP)
                             </h1>
                             <p className="text-white mb-3">
-                            ERP systems integrate various business processes into a single, cohesive system. They provide a comprehensive view of operations, driving efficiency and informed decision-making. ERPs help in resource planning, inventory management, and data analysis, supporting the overall growth and scalability of businesses.
+                                ERP systems integrate various business processes into a single, cohesive system. They provide a comprehensive view of operations, driving efficiency and informed decision-making. ERPs help in resource planning, inventory management, and data analysis, supporting the overall growth and scalability of businesses.
                             </p>
                             <div className="btn-wrapper mb-3">
                                 <p className="category text-success d-inline">
@@ -253,11 +232,11 @@ const Epr = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg="4" md="5">
+                        <Col lg="6" md="6">
                             <img
                                 alt="..."
                                 className="img-fluid"
-                                src={require("../../../assets/img/etherum.png")}
+                                src={require("../../../assets/img/services/erp.jpeg")}
                             />
                         </Col>
                     </Row>
@@ -278,25 +257,25 @@ const Epr = () => {
                                 <Col lg="3">
                                     <div style={{ margin: 20 }} >
                                         <div className="icon icon-primary" style={{ marginBottom: 10 }}>
-                         
+
                                             <TrendingUpIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Process Integration:</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
                                         <p style={{ marginBottom: 20 }} >
-                                        Unified management of business processes leads to smoother operations and improved collaboration across departments.
+                                            Unified management of business processes leads to smoother operations and improved collaboration across departments.
                                         </p>
                                     </div>
                                 </Col>
                                 <Col lg="3">
                                     <div style={{ margin: 20 }} >
                                         <div className="icon icon-primary" style={{ marginBottom: 10 }}>
-                                        <LanIcon  sx={{ color: "#00bbff", fontSize: 50 }} />,
+                                            <LanIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Resource Optimization:</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
                                         <p style={{ marginBottom: 20 }} >
-                                        Better allocation and utilization of resources, reducing waste and improving productivity.
+                                            Better allocation and utilization of resources, reducing waste and improving productivity.
                                         </p>
                                     </div>
                                 </Col>
@@ -304,12 +283,12 @@ const Epr = () => {
                                     <div style={{ margin: 20 }} >
                                         <div className="icon icon-warning" style={{ marginBottom: 10 }}>
                                             < StorageIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
-                                         
+
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>Data Accuracy:</h4>
                                         <hr className="line-warning" style={{ marginBottom: 20 }} />
                                         <p style={{ marginBottom: 20 }}>
-                                        Real-time data and analytics provide accurate insights for strategic planning and decision-making
+                                            Real-time data and analytics provide accurate insights for strategic planning and decision-making
                                         </p>
                                     </div>
                                 </Col>
@@ -317,12 +296,12 @@ const Epr = () => {
                                     <div style={{ margin: 20 }}  >
                                         <div className="icon icon-success" style={{ marginBottom: 20 }}>
                                             < FitScreenIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
-                                         
+
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>Scalability:</h4>
                                         <hr className="line-success" style={{ marginBottom: 20 }} />
                                         <p style={{ marginBottom: 20 }}>
-                                        Flexible solutions that can grow with the business, accommodating increasing demands and complexities.
+                                            Flexible solutions that can grow with the business, accommodating increasing demands and complexities.
                                         </p>
                                     </div>
                                 </Col>
@@ -339,112 +318,61 @@ const Epr = () => {
                 <Container>
                     <Row style={{ display: "flex", alignItems: "center", justifyContent: 'center' }} >
                         <Col md="4" style={{ marginTop: 100 }}>
-                            <h1>
-                                Pricing
-                                <hr className="line-info" />
-                            </h1>
+                            <div style={{ display: "flex", alignItems: "center", justifyContent: 'center' }}>
+                                <h1>
+                                    Pricing
+                                    <hr className="line-info" />
+                                </h1>
+                            </div>
+
                         </Col>
                     </Row>
 
-                    <Row style={{ marginTop: 120, marginBottom: 60 }}>
-                        <Col md="4">
-                            <Card className="card-coin card-plain">
-                                <CardHeader>
-                                    <img
-                                        alt="..."
-                                        className="img-center img-fluid"
-                                        src={require("../../../assets/img/bitcoin.png")}
-                                    />
-                                </CardHeader>
-                                <CardBody>
-                                    <Row>
-                                        <Col className="text-center" md="12">
-                                            <h4 className="text-uppercase">Light Coin</h4>
-                                            <span>Plan</span>
-                                            <hr className="line-primary" />
-                                        </Col>
-                                    </Row>
-                                    <Row>
-                                        <ListGroup>
-                                            <ListGroupItem>50 messages</ListGroupItem>
-                                            <ListGroupItem>100 emails</ListGroupItem>
-                                            <ListGroupItem>24/7 Support</ListGroupItem>
-                                        </ListGroup>
-                                    </Row>
-                                </CardBody>
-                                <CardFooter className="text-center">
-                                    <Button className="btn-simple" color="primary">
-                                        Get plan
-                                    </Button>
-                                </CardFooter>
-                            </Card>
-                        </Col>
-                        <Col md="4">
-                            <Card className="card-coin card-plain">
-                                <CardHeader>
-                                    <img
-                                        alt="..."
-                                        className="img-center img-fluid"
-                                        src={require("../../../assets/img/etherum.png")}
-                                    />
-                                </CardHeader>
-                                <CardBody>
-                                    <Row>
-                                        <Col className="text-center" md="12">
-                                            <h4 className="text-uppercase">Dark Coin</h4>
-                                            <span>Plan</span>
-                                            <hr className="line-success" />
-                                        </Col>
-                                    </Row>
-                                    <Row>
-                                        <ListGroup>
-                                            <ListGroupItem>150 messages</ListGroupItem>
-                                            <ListGroupItem>1000 emails</ListGroupItem>
-                                            <ListGroupItem>24/7 Support</ListGroupItem>
-                                        </ListGroup>
-                                    </Row>
-                                </CardBody>
-                                <CardFooter className="text-center">
-                                    <Button className="btn-simple" color="success">
-                                        Get plan
-                                    </Button>
-                                </CardFooter>
-                            </Card>
-                        </Col>
-                        <Col md="4">
-                            <Card className="card-coin card-plain">
-                                <CardHeader>
-                                    <img
-                                        alt="..."
-                                        className="img-center img-fluid"
-                                        src={require("../../../assets/img/ripp.png")}
-                                    />
-                                </CardHeader>
-                                <CardBody>
-                                    <Row>
-                                        <Col className="text-center" md="12">
-                                            <h4 className="text-uppercase">Bright Coin</h4>
-                                            <span>Plan</span>
-                                            <hr className="line-info" />
-                                        </Col>
-                                    </Row>
-                                    <Row>
-                                        <ListGroup>
-                                            <ListGroupItem>350 messages</ListGroupItem>
-                                            <ListGroupItem>10K emails</ListGroupItem>
-                                            <ListGroupItem>24/7 Support</ListGroupItem>
-                                        </ListGroup>
-                                    </Row>
-                                </CardBody>
-                                <CardFooter className="text-center">
-                                    <Button className="btn-simple" color="info">
-                                        Get plan
-                                    </Button>
-                                </CardFooter>
-                            </Card>
-                        </Col>
+
+
+                    <Row style={{ marginTop: 120 }}>
+                        {pricingPlans.map((plan, index) => (
+                            <Col md="4" key={index}>
+                                <Card className="card-coin card-plain">
+                                    <CardHeader>
+                                        <img
+                                            alt="..."
+                                            className="img-center img-fluid"
+                                            src={plan.img}
+                                        />
+                                    </CardHeader>
+                                    <CardBody>
+                                        <Row>
+                                            <Col className="text-center" md="12">
+                                                <h4 className="text-uppercase">{plan.title}</h4>
+                                                <span>{plan.description}</span>
+                                                <hr className={`line-${plan.buttonColor}`} />
+                                            </Col>
+                                        </Row>
+                                        <Row>
+                                            <ListGroup>
+                                                {plan.features.map((feature, idx) => (
+                                                    <ListGroupItem key={idx}>• {feature}</ListGroupItem>
+                                                ))}
+                                            </ListGroup>
+                                        </Row>
+                                    </CardBody>
+                                    <CardFooter className="text-center">
+                                        <Button className="btn-simple" color={plan.buttonColor}>
+                                            {plan.price}
+                                        </Button>
+                                    </CardFooter>
+                                </Card>
+                            </Col>
+                        ))}
                     </Row>
+
+
+
+
                 </Container>
+
+
             </section>
 
             <ContactApi />

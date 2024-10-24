@@ -1,4 +1,4 @@
- 
+
 import React from "react";
 import { Link } from "react-router-dom";
 // reactstrap components
@@ -24,23 +24,18 @@ export default function Footer() {
           <Col md="3">
             <Nav>
               <NavItem>
-                <NavLink to="/" tag={Link}>
+                <NavLink  href="#Home">
                   Home
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/landing-page" tag={Link}>
+                <NavLink  href="#services">
                   Services
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/register-page" tag={Link}>
+                <NavLink  href="#about">
                   About Us
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink to="/profile-page" tag={Link}>
-                  Portfolio
                 </NavLink>
               </NavItem>
             </Nav>
@@ -48,21 +43,21 @@ export default function Footer() {
           <Col md="3">
             <Nav>
               <NavItem>
-                <NavLink href="https://creative-tim.com/contact-us?ref=blkdsr-footer">
-             Why Us
+                <NavLink  href="#portfolio">
+                Portfolio
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://creative-tim.com/about-us?ref=blkdsr-footer">
+                <NavLink  href="#testimony">
                   Testimonies
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://creative-tim.com/blog?ref=blkdsr-footer">
+                <NavLink  href="#contact">
                   Contact Us
                 </NavLink>
               </NavItem>
-          
+
             </Nav>
           </Col>
           <Col md="3">
@@ -71,7 +66,7 @@ export default function Footer() {
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
                 color="default"
-                href="https://twitter.com/creativetim"
+                href="https://twitter.com/"
                 id="tooltip622135962"
                 target="_blank"
               >
@@ -83,7 +78,7 @@ export default function Footer() {
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
                 color="default"
-                href="https://www.facebook.com/creativetim"
+                href="https://www.facebook.com/"
                 id="tooltip230450801"
                 target="_blank"
               >
@@ -95,7 +90,7 @@ export default function Footer() {
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
                 color="default"
-                href="https://dribbble.com/creativetim"
+                href="https://dribbble.com/"
                 id="tooltip318450378"
                 target="_blank"
               >

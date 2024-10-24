@@ -28,6 +28,12 @@ import { FaPeopleGroup } from "react-icons/fa6";
 import { FaHome } from "react-icons/fa";
 import { MdOutlineDashboardCustomize } from "react-icons/md";
 
+
+const scrollToSection = (sectionId) => {
+  document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
+};
+
+
 export default function IndexNavbar() {
   const [collapseOpen, setCollapseOpen] = React.useState(false);
   const [collapseOut, setCollapseOut] = React.useState("");
@@ -71,15 +77,15 @@ export default function IndexNavbar() {
       <Container>
         <div className="navbar-translate">
 
-        <img
-              alt="..."
-              className="path"
-              style={{width : 200, height: 200, borderRadius:20}}
-              src={require("../../assets/img/kanairo/chi-send.png")} />
+          <img
+            alt="..."
+            className="path"
+            style={{ width: 200, height: 200, borderRadius: 20 }}
+            src={require("../../assets/img/kanairo/chi-send.png")} />
 
           <NavbarBrand to="/" tag={Link} id="navbar-brand">
 
-        
+
             <span>Chi-send </span>
 
           </NavbarBrand>
@@ -163,13 +169,13 @@ export default function IndexNavbar() {
           <Nav navbar>
 
             <NavItem className="active">
-              <NavLink href="#Home" >
+              <NavLink href="#Home">
                 <FaHome style={{ margin: 3 }} />
                 Home
               </NavLink>
             </NavItem>
             <NavItem className="active">
-              <NavLink href="/services">
+              <NavLink href="#services">
                 <GrServices style={{ margin: 3 }} />
                 Services
               </NavLink>
@@ -180,21 +186,21 @@ export default function IndexNavbar() {
                 About us
               </NavLink>
             </NavItem>
-
             <NavItem className="active">
-              <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+              <NavLink href="#portfolio" >
                 <SiTicktick style={{ margin: 3 }} />
-                Experience
+                Portfolio
               </NavLink>
             </NavItem>
+            
             <NavItem className="active">
-              <NavLink href="#about" onClick={(e) => e.preventDefault()}>
+              <NavLink href="#testimony" >
                 <FaPeopleGroup style={{ margin: 3 }} />
-                Reviews
+                Testimonies
               </NavLink>
             </NavItem>
             <NavItem className="active">
-              <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+              <NavLink href="#contact">
                 <AiOutlineMessage style={{ margin: 3 }} />
                 Contact
               </NavLink>

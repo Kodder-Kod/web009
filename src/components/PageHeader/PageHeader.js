@@ -123,34 +123,34 @@ const items = [
 
 const followerCard = [
   {
-    title: "Andrew Omondi",
-    para: "Leading a workshop requires more than just tools. Mariwa VCT's Motor Vehicle Mechanics course gave me the knowledge to manage projects efficiently.",
-    opp: " Workshop Supervisor",
-    location: "Nairobi , Kenya",
+    title: "Brandon Omondi",
+    para: "Mariwa VCT equipped me with essential skills in Motor Vehicle Mechanics, making me proficient in managing both projects and clients efficiently.",
+    opp: "Workshop Supervisor",
+    location: "Kisumu, Kenya",
     avatar:
       "https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/profile/user-1.jpg"
   },
   {
-    title: "Irene Atieno",
-    para: "Managing a spa demands expertise. Mariwa VCT's Beauty Therapy course gave me the edge I needed to excel in this competitive industry.",
-    opp: "Spa Manager",
-    location: "Kakamega , Kenya ",
+    title: "Irene Nejri",
+    para: "Caveron helped streamline our online presence by building a website for our SME. Now, we manage orders and client inquiries seamlessly, boosting our supply operations.",
+    opp: "Operations Manager",
+    location: "Mombasa, Kenya",
     avatar:
       "https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/profile/user-2.jpg"
   },
   {
     title: "Brian Wafula",
-    para: "Mariwa VCT's Motor Vehicle Mechanics course was hands-on and up-to-date. Now, I confidently diagnose and repair vehicles every day.",
-    opp: "Automotive Technician",
-    location: "Kisumu , Kenya ",
+    para: "Twesa, the event planning app, has revolutionized my business. It allows me to organize events with precision, saving time and improving customer satisfaction.",
+    opp: "Event Planner",
+    location: "Nairobi, Kenya",
     avatar:
       "https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/profile/user-3.jpg"
   },
   {
     title: "Scott Summers",
-    para: "Mariwa VCT's training gave me the confidence to start my own electrical contracting business. I'm now a successful entrepreneur!",
-    opp: "Electrical Contractor",
-    location: "Nairobi , Kenya",
+    para: "The Chisend ERP app has been a game-changer for my business operations. From tracking inventory to managing payroll, it simplifies day-to-day tasks and boosts efficiency.",
+    opp: "Entrepreneur",
+    location: "Nairobi, Kenya",
     avatar:
       "https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/profile/user-4.jpg"
   }
@@ -190,7 +190,7 @@ const CATEGORIES = [
 export default function PageHeader() {
   return (
     <>
-      <div id='home' className="page-header header-filter">
+      <div id="Home" className="page-header header-filter">
         <div className="squares square1" />
         <div className="squares square2" />
         <div className="squares square3" />
@@ -317,7 +317,7 @@ export default function PageHeader() {
 
 
       <>
-        <section id="#Services">
+        <section id="services">
           <Box
             id="highlights"
             sx={{
@@ -405,7 +405,7 @@ export default function PageHeader() {
 
       </>
 
-      <section id="#about" className="section section-md section-safe">
+      <section id="about" className="section section-md section-safe">
         <img
           alt="..."
           className="path"
@@ -519,7 +519,7 @@ export default function PageHeader() {
 
 
 
-      <>
+      < section id="portfolio">
         <div className="mb-20 grid place-items-center text-center">
           <Typography variant="h4" color="blue-gray" className="my-3">
             Portfolio
@@ -572,7 +572,7 @@ export default function PageHeader() {
           </Row>
 
         </div>
-      </>
+      </ section> 
 
 
       <>
@@ -756,12 +756,12 @@ export default function PageHeader() {
 
       <>
 
-        <section className="section">
-          < div id="#testimony">
+        <section className="section" id="testimony" >
+          
 
             <div className="mx-auto max-w-2xl py-2 px-4 sm:px-6 lg:max-w-7xl lg:px-8 ">
 
-              <h3 className=" sm:text-5xl font-semibold text-black text-center my-3" style={{ fontSize: 40, fontWeight: "bold", }}>Reviews</h3>
+              <h3 className=" sm:text-5xl font-semibold text-black text-center my-3" style={{ fontSize: 40, fontWeight: "bold", }}>Testimonies</h3>
             </div>
 
             <Grid container spacing={2}  >
@@ -801,11 +801,12 @@ export default function PageHeader() {
               ))}
 
             </Grid>
-          </div>
+       
         </section >
       </>
-
+<section id="contact">
       <ContactApi />
+      </section>
     </>
 
   );

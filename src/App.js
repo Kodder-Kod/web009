@@ -53,72 +53,67 @@ import Websecurity from "./components/huduma/web/Websecurity";
 
 function App() {
   return (
-<>
+    <>
 
-<BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Index />} />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Index />} />
 
-        <Route path="/services" element={<Services />} />
+          <Route path="/services/business" element={<Business />} />
+          <Route path="/services/management" element={<Management />} />
+          <Route path="/services/web" element={<Web />} />
+          <Route path="/services/data" element={<Data />} />
+          <Route path="/services/internet" element={<Internet />} />
+          <Route path="/services/cyber" element={<Cyber />} />
 
-        <Route path="/services/business" element={<Business />} />
-        <Route path="/services/management" element={<Management />} />
-        <Route path="/services/web" element={<Web />} />
-        <Route path="/services/data" element={<Data />} />
-        <Route path="/services/internet" element={<Internet />} />
-        <Route path="/services/cyber" element={<Cyber />} />
+          <Route path="/services/business/POS" element={<Pos />} />
+          <Route path="/services/business/CRM" element={<Crm />} />
+          <Route path="/services/business/Ecommerce" element={<Ecommerce />} />
+          <Route path="/services/business/EPR" element={<Epr />} />
+          <Route path="/services/business/Payroll" element={<Payroll />} />
+          <Route path="/services/business/Sacco" element={<Sacco />} />
 
-        <Route path="/services/business/POS" element={<Pos />} />
-        <Route path="/services/business/CRM" element={<Crm />} />
-        <Route path="/services/business/Ecommerce" element={<Ecommerce />} />
-        <Route path="/services/business/EPR" element={<Epr />} />
-        <Route path="/services/business/Payroll" element={<Payroll />} />
-        <Route path="/services/business/Sacco" element={<Sacco />} />
+          <Route path="/services/cyber/bulksms" element={<Bulksms />} />
+          <Route path="/services/cyber/consultant" element={<Consultant />} />
+          <Route path="/services/cyber/documents" element={<Documents />} />
+          <Route path="/services/cyber/graphics" element={<Graphics />} />
+          <Route path="/services/cyber/project" element={<Project />} />
+          <Route path="/services/cyber/tax" element={<Tax />} />
 
-        <Route path="/services/cyber/bulksms" element={<Bulksms />} />
-        <Route path="/services/cyber/consultant" element={<Consultant />} />
-        <Route path="/services/cyber/documents" element={<Documents />} />
-        <Route path="/services/cyber/graphics" element={<Graphics />} />
-        <Route path="/services/cyber/project" element={<Project />} />
-        <Route path="/services/cyber/tax" element={<Tax />} />
+          <Route path="/services/data/analysis" element={<Analysis />} />
+          <Route path="/services/data/entry" element={<Entry />} />
+          <Route path="/services/data/management" element={<DataManagement />} />
+          <Route path="/services/data/migration" element={<Migration />} />
+          <Route path="/services/data/recovery" element={<Recovery />} />
+          <Route path="/services/data/science" element={<Science />} />
 
-        <Route path="/services/data/analysis" element={<Analysis />} />
-        <Route path="/services/data/entry" element={<Entry />} />
-        <Route path="/services/data/management" element={<DataManagement />} />
-        <Route path="/services/data/migration" element={<Migration />} />
-        <Route path="/services/data/recovery" element={<Recovery />} />
-        <Route path="/services/data/science" element={<Science />} />
+          <Route path="/services/internet/biometric" element={<Biometric />} />
+          <Route path="/services/internet/CCTV" element={<Cctv />} />
+          <Route path="/services/internet/Cloud" element={<Cloud />} />
+          <Route path="/services/internet/internet" element={<InternetServices />} />
+          <Route path="/services/internet/network" element={<Network />} />
+          <Route path="/services/internet/seo" element={<Seo />} />
 
-        <Route path="/services/internet/biometric" element={<Biometric />} />
-        <Route path="/services/internet/CCTV" element={<Cctv />} />
-        <Route path="/services/internet/Cloud" element={<Cloud />} />
-        <Route path="/services/internet/internet" element={<InternetServices />} />
-        <Route path="/services/internet/network" element={<Network />} />
-        <Route path="/services/internet/seo" element={<Seo />} />
+          <Route path="/services/management/Asset" element={<Asset />} />
+          <Route path="/services/management/Hospital" element={<Hospital />} />
+          <Route path="/services/management/School" element={<School />} />
+          <Route path="/services/management/Supplychain" element={<SupplyChain />} />
+          <Route path="/services/management/Hospitality" element={<Hospitality />} />
+          <Route path="/services/management/Warehouse" element={<Warehouse />} />
 
-        <Route path="/services/management/Asset" element={<Asset />} />
-        <Route path="/services/management/Hospital" element={<Hospital />} />
-        <Route path="/services/management/School" element={<School />} />
-        <Route path="/services/management/Supplychain" element={<SupplyChain />} />
-        <Route path="/services/management/Hospitality" element={<Hospitality />} />
-        <Route path="/services/management/Warehouse" element={<Warehouse />} />
-
-        <Route path="/services/web/ads" element={<Ads />} />
-        <Route path="/services/web/api" element={<Api />} />
-        <Route path="/services/web/dev" element={<Dev />} />
-        <Route path="/services/web/hosting" element={<Hosting />} />
-        <Route path="/services/web/security" element={<Websecurity />} />
-        <Route path="/services/web/testing" element={<Testing />} />
+          <Route path="/services/web/ads" element={<Ads />} />
+          <Route path="/services/web/api" element={<Api />} />
+          <Route path="/services/web/dev" element={<Dev />} />
+          <Route path="/services/web/hosting" element={<Hosting />} />
+          <Route path="/services/web/security" element={<Websecurity />} />
+          <Route path="/services/web/testing" element={<Testing />} />
 
 
+          <Route path="*" element={<Navigate to="/component" replace />} />
+        </Routes>
+      </BrowserRouter>
 
-        <Route path="*" element={<Navigate to="/component" replace />} />
-      </Routes>
-    </BrowserRouter>
-
-
-</>
-
+    </>
 
   );
 }
