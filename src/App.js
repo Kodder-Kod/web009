@@ -50,6 +50,7 @@ import Testing from "./components/huduma/web/Testing";
 import Asset from "./components/huduma/management/Asset";
 import Cctv from "./components/huduma/internet/Cctv";
 import Websecurity from "./components/huduma/web/Websecurity";
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
@@ -112,7 +113,7 @@ function App() {
           <Route path="*" element={<Navigate to="/component" replace />} />
         </Routes>
       </BrowserRouter>
-
+      <ToastContainer />
     </>
 
   );

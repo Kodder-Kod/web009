@@ -572,7 +572,7 @@ export default function PageHeader() {
           </Row>
 
         </div>
-      </ section> 
+      </ section>
 
 
       <>
@@ -757,55 +757,55 @@ export default function PageHeader() {
       <>
 
         <section className="section" id="testimony" >
-          
 
-            <div className="mx-auto max-w-2xl py-2 px-4 sm:px-6 lg:max-w-7xl lg:px-8 ">
 
-              <h3 className=" sm:text-5xl font-semibold text-black text-center my-3" style={{ fontSize: 40, fontWeight: "bold", }}>Testimonies</h3>
-            </div>
+          <div className="mx-auto max-w-2xl py-2 px-4 sm:px-6 lg:max-w-7xl lg:px-8 ">
 
-            <Grid container spacing={2}  >
-              {followerCard.map((card, index) => (
-                <Grid item xs={10} sm={3} lg={3} key={index}>
-                  <Card variant="outlined" style={{ borderRadius: 20 }}>
+            <h3 className=" sm:text-5xl font-semibold text-black text-center my-3" style={{ fontSize: 40, fontWeight: "bold", }}>Testimonies</h3>
+          </div>
 
-                    <CardContent>
-                      <Avatar
-                        src={card.avatar}
-                        sx={{ height: 80, width: 80 }}
-                      ></Avatar>
-                      <Stack direction="row" spacing={2} mt={3}>
-                        <Box>
-                          <Typography variant="h5" mb={1}>
-                            {card.title}
-                          </Typography>
-                          <Stack direction="row" spacing={2} alignItems="center">
+          <Grid container spacing={2}  >
+            {followerCard.map((card, index) => (
+              <Grid item xs={10} sm={3} lg={3} key={index}>
+                <Card variant="outlined" style={{ borderRadius: 20 }}>
 
-                            <p variant="subtitle2" color="textSecondary">
-                              {card.opp}
-                            </p>
+                  <CardContent>
+                    <Avatar
+                      src={card.avatar}
+                      sx={{ height: 80, width: 80 }}
+                    ></Avatar>
+                    <Stack direction="row" spacing={2} mt={3}>
+                      <Box>
+                        <Typography variant="h5" mb={1}>
+                          {card.title}
+                        </Typography>
+                        <Stack direction="row" spacing={2} alignItems="center">
 
-                            <Typography variant="subtitle2" color="textSecondary">
-                              {card.location}
-                            </Typography>
-                          </Stack>
-                          <div style={{ margin: 15 }}></div>
                           <p variant="subtitle2" color="textSecondary">
-                            {card.para}
+                            {card.opp}
                           </p>
-                        </Box>
-                      </Stack>
-                    </CardContent>
-                  </Card>
-                </Grid>
-              ))}
 
-            </Grid>
-       
+                          <Typography variant="subtitle2" color="textSecondary">
+                            {card.location}
+                          </Typography>
+                        </Stack>
+                        <div style={{ margin: 15 }}></div>
+                        <p variant="subtitle2" color="textSecondary">
+                          {card.para}
+                        </p>
+                      </Box>
+                    </Stack>
+                  </CardContent>
+                </Card>
+              </Grid>
+            ))}
+
+          </Grid>
+
         </section >
       </>
-<section id="contact">
-      <ContactApi />
+      <section id="contact">
+        <ContactApi />
       </section>
     </>
 

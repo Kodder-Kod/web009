@@ -36,10 +36,10 @@ const ContactApi = () => {
     const [message, setMessage] = useState("")
 
 
-    const sendMessage = async () => {
-
+    const sendMessage = async (e) => {
+        e.preventDefault();
         try {
-            const dbRef = ref(db, `Chisendwebsite/messages/`);
+            const dbRef = ref(db, `chisendwebsite/messages/`);
 
             const newbranchRef = push(dbRef, {
 
@@ -56,16 +56,15 @@ const ContactApi = () => {
             setPhone("")
             setEmail("")
             setMessage("")
-            alert("Message sent successfully!");
 
+
+            alert("Message was sent successfully")
         }
         catch (error) {
 
             console.error("Error sending message: ", error);
-            alert("Failed to send message. Try again.");
+            alert("Failed . Try again")
         }
-
-
 
 
     };
@@ -89,7 +88,7 @@ const ContactApi = () => {
                         <Col md="6">
                             <Card className="card-plain">
                                 <CardBody>
-                                    <Form onSubmit={sendMessage}>
+                                    <Form >
                                         <Row>
                                             <Col md="6">
                                                 <FormGroup>
@@ -127,12 +126,16 @@ const ContactApi = () => {
                                             <Col md="12">
                                                 <FormGroup>
                                                     <label>Message</label>
-                                                    <Input placeholder="Hello there!" type="textarea"
+                                                    <Input placeholder="Hello there!"
+                                                        type="textarea"
+                                                        value={message}
+                                                        onChange={(e) => setMessage(e.target.value)}
                                                         style={{
                                                             height: '170px', // Set a fixed height
                                                             border: '0.5px solid #dcdcdc ', // Set border style
                                                             borderRadius: '10px', // Optional: round corners
-                                                            padding: '10px' // Optional: add some padding 
+                                                            padding: '10px' // Optional: add some padding \
+
                                                         }}
                                                     />
                                                 </FormGroup>
@@ -143,7 +146,7 @@ const ContactApi = () => {
                                             color="primary"
                                             data-placement="right"
                                             id="tooltip341148792"
-                                            type="submit"
+                                            onClick={sendMessage}
                                         >
                                             Send Message
                                         </Button>
@@ -178,6 +181,7 @@ const ContactApi = () => {
                                     <h4 className="info-title">Connect with us </h4>
                                     <p>
                                         Chi-send contact <br />
+                                        Brian Adema Trent <br />
                                         +254794410921 <br />
                                         trentbrian007@gmail.com
                                     </p>
@@ -185,16 +189,10 @@ const ContactApi = () => {
                             </div>
                         </Col>
                     </Row>
-
-
-
                 </Container>
             </section>
         </>
-
     )
-
-
 }
 
 
