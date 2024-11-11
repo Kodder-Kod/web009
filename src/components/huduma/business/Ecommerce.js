@@ -97,11 +97,11 @@ const pricingPlans = [
         "Up to 100 products",
    
       ],
-      img: require("../../../assets/img/bitcoin.png"),
+      img: require("../../../assets/img/services/medal.png"),
       buttonColor: "primary"
     },
     {
-      title: "Intermediate Package",
+     title: "Advanced Package",
       description: "Best Value",
       price: "Ksh 1000/month",
       features: [
@@ -112,11 +112,11 @@ const pricingPlans = [
         "Discounts & coupon codes",
         "Priority email support"
       ],
-      img: require("../../../assets/img/bitcoin.png"),
+      img: require("../../../assets/img/services/belt.png"),
       buttonColor: "success"
     },
     {
-      title: "Advanced Package",
+      title: "Premium Package",
       description: "Premium Plan",
       price: "Ksh 2000/month",
       features: [
@@ -129,7 +129,7 @@ const pricingPlans = [
         "Third-party marketplace integration (Amazon, eBay)",
         "Custom reports & analytics"
       ],
-      img: require("../../../assets/img/bitcoin.png"),
+      img: require("../../../assets/img/services/crown.png"),
       buttonColor: "info"
     }
   ];
@@ -185,21 +185,22 @@ const Ecommerce = () => {
                 <div className="content-center">
                     <Row className="row-grid justify-content-between align-items-center text-left">
                         <Col lg="6" md="6">
-                            <h1 className="text-white">
+                        <h3 className=" sm:text-5xl font-semibold text-black  " style={{ fontSize: 35, fontWeight: "bold", }}>
+                           
                                 eCommerce Platforms
-                            </h1>
-                            <p className="text-white mb-3">
+                            </h3>
+                            <p className="text-white mb-3" style={{ fontSize: 16 }}>
                                 eCommerce platforms enable businesses to sell products and services online. They offer tools for website creation, payment processing, and order management, providing a seamless shopping experience for customers. eCommerce solutions help businesses reach a wider audience and streamline online operations.
                             </p>
                             <div className="btn-wrapper mb-3">
-                                <p className="category text-success d-inline">
-                                    Download App
+                            <p className="category text-success d-inline">
+                                    Social Media
                                 </p>
                                 <Button
                                     className="btn-link"
                                     color="success"
                                     href="#pablo"
-                                    onClick={(e) => e.preventDefault()}
+                                    
                                     size="sm"
                                 >
                                     <i className="tim-icons icon-minimal-right" />
@@ -207,27 +208,20 @@ const Ecommerce = () => {
                             </div>
                             <div className="btn-wrapper">
                                 <div className="button-container">
+                                
                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/"
+                                       
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
-                                    <Button
+                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                    >
-                                        <i className="fab fa-dribbble" />
-                                    </Button>
-                                    <Button
-                                        className="btn-icon btn-simple btn-round btn-neutral"
-                                        color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://facebook.com/"
+                                       
                                     >
                                         <i className="fab fa-facebook" />
                                     </Button>
@@ -263,7 +257,7 @@ const Ecommerce = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Online Presence</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                             Establishes a digital storefront, allowing businesses to reach a global audience and increase sales opportunities.
                                         </p>
                                     </div>
@@ -275,7 +269,7 @@ const Ecommerce = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Convenience</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                             Easy setup and management of online sales, including inventory management and order fulfillment.
                                         </p>
                                     </div>
@@ -288,7 +282,7 @@ const Ecommerce = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>Payment Integration</h4>
                                         <hr className="line-warning" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                             Secure and diverse payment options, enhancing customer trust and convenience.
                                         </p>
                                     </div>
@@ -301,7 +295,7 @@ const Ecommerce = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>Analytics</h4>
                                         <hr className="line-success" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                             Provides insights into customer behavior, sales trends, and website performance, enabling data-driven decision-making
                                         </p>
                                     </div>
@@ -319,10 +313,10 @@ const Ecommerce = () => {
                     <Row style={{ display: "flex", alignItems: "center", justifyContent: 'center' }} >
                         <Col md="4" style={{ marginTop: 100 }}>
                             <div style={{ display: "flex", alignItems: "center", justifyContent: 'center' }}>
-                                <h1>
+                                  <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>
                                     Pricing
                                     <hr className="line-info" />
-                                </h1>
+                                </h3>
                             </div>
 
                         </Col>

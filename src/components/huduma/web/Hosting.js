@@ -98,11 +98,11 @@ const pricingPlans = [
         "Email support",
         "Monthly backups"
       ],
-      img: require("../../../assets/img/bitcoin.png"), // Corrected image format
+      img: require("../../../assets/img/services/medal.png"), // Corrected image format
       buttonColor: "primary"
     },
     {
-      title: "Intermediate Package",
+     title: "Advanced Package",
       description: "Best Value",
       price: "Ksh 1,000/month",
       features: [
@@ -113,11 +113,11 @@ const pricingPlans = [
         "SSL certificate",
         "Free domain for the first year"
       ],
-      img: require("../../../assets/img/bitcoin.png"), // Corrected image format
+      img: require("../../../assets/img/services/belt.png"), // Corrected image format
       buttonColor: "success"
     },
     {
-      title: "Advanced Package",
+      title: "Premium Package",
       description: "Premium Plan",
       price: "Ksh 2,000/month",
       features: [
@@ -130,7 +130,7 @@ const pricingPlans = [
         "Dedicated IP address",
         "Ongoing consultation"
       ],
-      img: require("../../../assets/img/bitcoin.png"), // Corrected image format
+      img: require("../../../assets/img/services/crown.png"), // Corrected image format
       buttonColor: "info"
     }
   ];
@@ -186,22 +186,23 @@ const Hosting = () => {
                 <div className="content-center">
                     <Row className="row-grid justify-content-between align-items-center text-left">
                         <Col lg="6" md="6">
-                            <h1 className="text-white">
+                            <h3 className=" sm:text-5xl font-semibold text-black  " style={{ fontSize: 35, fontWeight: "bold", }}>
+            
                             Hosting
-                            </h1>
-                            <p className="text-white mb-3">
+                            </h3>
+                            <p className="text-white mb-3" style={{ fontSize: 16 }}>
                             Hosting services provide the infrastructure needed to run your website or application on the internet. Reliable hosting ensures your site is accessible, fast, and secure.
 
                             </p>
                             <div className="btn-wrapper mb-3">
                                 <p className="category text-success d-inline">
-                                Order Now
+                                Social Media  
                                 </p>
                                 <Button
                                     className="btn-link"
                                     color="success"
                                     href="#pablo"
-                                    onClick={(e) => e.preventDefault()}
+                                   
                                     size="sm"
                                 >
                                     <i className="tim-icons icon-minimal-right" />
@@ -213,7 +214,7 @@ const Hosting = () => {
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
                                         href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                       
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
@@ -221,7 +222,7 @@ const Hosting = () => {
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
                                         href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                       
                                     >
                                         <i className="fab fa-dribbble" />
                                     </Button>
@@ -229,7 +230,7 @@ const Hosting = () => {
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
                                         href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                       
                                     >
                                         <i className="fab fa-facebook" />
                                     </Button>
@@ -254,7 +255,7 @@ const Hosting = () => {
                     <Row className="justify-content-center">
                         <Col lg="12">
                             <div >
-                                <h1 className="text-center">Your best benefit</h1>
+                                <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>Your benefits</h3>
                             </div>
 
                             <Row className="row-grid justify-content-center" >
@@ -267,7 +268,7 @@ const Hosting = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Reliability</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                       <p style={{ marginBottom: 20,fontSize:16 }} >
                                         Ensures your website or application is always available to users, minimizing downtime and maximizing accessibility.
                                         </p>
                                     </div>
@@ -279,7 +280,7 @@ const Hosting = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Performance</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                       <p style={{ marginBottom: 20,fontSize:16 }} >
                                         Ensures your website or application is always available to users, minimizing downtime and maximizing accessibility.
                                         </p>
                                     </div>
@@ -292,7 +293,7 @@ const Hosting = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>Scalability</h4>
                                         <hr className="line-warning" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20,fontSize:16 }} >
                                         Provides flexible hosting plans that can scale with your business growth, accommodating increased traffic and resource demands.
                                         </p>
                                     </div>
@@ -304,7 +305,7 @@ const Hosting = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>Security </h4>
                                         <hr className="line-success" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20,fontSize:16 }} >
                                          Implements robust security measures to protect your data and applications from cyber threats, ensuring safe and secure hosting.
                                         </p>
                                     </div>
@@ -323,10 +324,10 @@ const Hosting = () => {
                     <Row style={{ display: "flex", alignItems: "center", justifyContent: 'center' }} >
                         <Col md="4" style={{ marginTop: 100 }}>
                             <div style={{ display: "flex", alignItems: "center", justifyContent: 'center' }}>
-                                <h1>
+                                  <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>
                                     Pricing
                                     <hr className="line-info" />
-                                </h1>
+                                </h3>
                             </div>
 
                         </Col>

@@ -96,11 +96,11 @@ const pricingPlans = [
         "Monthly performance report",
         "Support via email"
       ],
-      img: require("../../../assets/img/bitcoin.png"), // Corrected image format
+      img: require("../../../assets/img/services/medal.png"), // Corrected image format
       buttonColor: "primary"
     },
     {
-      title: "Intermediate Package",
+     title: "Advanced Package",
       description: "Best Value",
       price: "Ksh 7,000/month",
       features: [
@@ -111,11 +111,11 @@ const pricingPlans = [
         "Support via email and chat",
         "Social media integration"
       ],
-      img: require("../../../assets/img/bitcoin.png"), // Corrected image format
+      img: require("../../../assets/img/services/belt.png"), // Corrected image format
       buttonColor: "success"
     },
     {
-      title: "Advanced Package",
+      title: "Premium Package",
       description: "Premium Plan",
       price: "Ksh 10,000/month",
       features: [
@@ -128,7 +128,7 @@ const pricingPlans = [
         "Multi-platform advertising",
         "Ongoing consultation"
       ],
-      img: require("../../../assets/img/bitcoin.png"), // Corrected image format
+      img: require("../../../assets/img/services/crown.png"), // Corrected image format
       buttonColor: "info"
     }
   ];
@@ -184,22 +184,23 @@ const Ads = () => {
                 <div className="content-center">
                     <Row className="row-grid justify-content-between align-items-center text-left">
                         <Col lg="6" md="6">
-                            <h1 className="text-white">
+                            <h3 className=" sm:text-5xl font-semibold text-black  " style={{ fontSize: 35, fontWeight: "bold", }}>
+            
                             Ads
 
-                            </h1>
-                            <p className="text-white mb-3">
+                            </h3>
+                            <p className="text-white mb-3" style={{ fontSize: 16 }}>
                             Ads play a crucial role in driving traffic and generating leads for your business. Effective online advertising strategies help increase visibility and reach a broader audience.
                             </p>
                             <div className="btn-wrapper mb-3">
                                 <p className="category text-success d-inline">
-                                    Order Now
+                                Social Media  
                                 </p>
                                 <Button
                                     className="btn-link"
                                     color="success"
                                     href="#pablo"
-                                    onClick={(e) => e.preventDefault()}
+                                   
                                     size="sm"
                                 >
                                     <i className="tim-icons icon-minimal-right" />
@@ -211,7 +212,7 @@ const Ads = () => {
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
                                         href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                       
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
@@ -219,7 +220,7 @@ const Ads = () => {
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
                                         href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                       
                                     >
                                         <i className="fab fa-dribbble" />
                                     </Button>
@@ -227,7 +228,7 @@ const Ads = () => {
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
                                         href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                       
                                     >
                                         <i className="fab fa-facebook" />
                                     </Button>
@@ -252,7 +253,7 @@ const Ads = () => {
                     <Row className="justify-content-center">
                         <Col lg="12">
                             <div >
-                                <h1 className="text-center">Your best benefit</h1>
+                                <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>Your benefits</h3>
                             </div>
 
                             <Row className="row-grid justify-content-center" >
@@ -264,7 +265,7 @@ const Ads = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Targeted Reach</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                       <p style={{ marginBottom: 20,fontSize:16 }} >
                                         Deliver ads to a specific audience based on demographics, interests, and behaviors, ensuring that your message reaches the right people.
                                         </p>
                                     </div>
@@ -276,7 +277,7 @@ const Ads = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Brand Awareness</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                       <p style={{ marginBottom: 20,fontSize:16 }} >
                                         Enhance brand visibility and recognition by consistently displaying your ads across various platforms, building a strong brand presence.
                                         </p>
                                     </div>
@@ -289,7 +290,7 @@ const Ads = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>Measurable Results</h4>
                                         <hr className="line-warning" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20,fontSize:16 }} >
                                         Track and measure the performance of your ad campaigns, allowing for data-driven adjustments to optimize results and ROI.
                                         </p>
                                     </div>
@@ -302,7 +303,7 @@ const Ads = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>Cost Efficiency</h4>
                                         <hr className="line-success" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20,fontSize:16 }} >
                                         Utilize cost-effective advertising methods, such as pay-per-click (PPC) and social media ads, ensuring maximum impact with controlled spending.
                                         </p>
                                     </div>
@@ -321,10 +322,10 @@ const Ads = () => {
                     <Row style={{ display: "flex", alignItems: "center", justifyContent: 'center' }} >
                         <Col md="4" style={{ marginTop: 100 }}>
                             <div style={{ display: "flex", alignItems: "center", justifyContent: 'center' }}>
-                                <h1>
+                                  <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>
                                     Pricing
                                     <hr className="line-info" />
-                                </h1>
+                                </h3>
                             </div>
 
                         </Col>

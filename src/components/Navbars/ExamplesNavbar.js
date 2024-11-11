@@ -54,11 +54,11 @@ export default function ExamplesNavbar() {
       <Container>
         <div className="navbar-translate">
           <NavbarBrand to="/" id="navbar-brand" tag={Link}>
-            <span>CHI-SEND </span>
+            <span>Chisend </span>
 
           </NavbarBrand>
           <UncontrolledTooltip placement="bottom" target="navbar-brand">
-            Designed and Coded by Chi-Send
+            Designed and Coded by Chisend
           </UncontrolledTooltip>
           <button
             aria-expanded={collapseOpen}
@@ -80,8 +80,8 @@ export default function ExamplesNavbar() {
           <div className="navbar-collapse-header">
             <Row>
               <Col className="collapse-brand" xs="6">
-                <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                  CHI-SEND
+                <a href="#pablo" >
+                  Chisend
                 </a>
               </Col>
               <Col className="collapse-close text-right" xs="6">

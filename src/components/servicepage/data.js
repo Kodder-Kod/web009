@@ -215,21 +215,21 @@ const Data = () => {
                 <div className="content-center">
                     <Row className="row-grid justify-content-between align-items-center text-left">
                         <Col lg="6" md="6">
-                            <h1 className="text-white">
+                        <h3 className=" sm:text-5xl font-semibold text-black  " style={{ fontSize: 35, fontWeight: "bold", }}>
                                 Data Management and Data Science
-                            </h1>
-                            <p className="text-white mb-3">
+                            </h3>
+                            <p className="text-white mb-3"  style={{fontSize:16}}>
                                 Data management and data science are crucial for businesses to leverage their data effectively. These fields involve collecting, storing, processing, and analyzing data to extract valuable insights and make informed decisions. This guide provides an overview of various categories within data management and data science, focusing on Data Analysis, Data Entry, Data Management, Data Migration, Data Recovery, and Data Science.
                             </p>
                             <div className="btn-wrapper mb-3">
                                 <p className="category text-success d-inline">
-                                    Order Now
+                                Social Media  
                                 </p>
                                 <Button
                                     className="btn-link"
                                     color="success"
-                                    href="#pablo"
-                                    onClick={(e) => e.preventDefault()}
+                                    href="#Services"
+                                   
                                     size="sm"
                                 >
                                     <i className="tim-icons icon-minimal-right" />
@@ -240,24 +240,17 @@ const Data = () => {
                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/"
+                                       
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
+                                  
                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                    >
-                                        <i className="fab fa-dribbble" />
-                                    </Button>
-                                    <Button
-                                        className="btn-icon btn-simple btn-round btn-neutral"
-                                        color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://facebook.com/"
+                                       
                                     >
                                         <i className="fab fa-facebook" />
                                     </Button>
@@ -300,12 +293,12 @@ const Data = () => {
 
 
 <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8 ">
-    <h3 className="sm:text-4xl font-semibold text-white text-center" style={{ fontSize: 30, fontWeight: "bold" }}>
+    <h3 className="sm:text-4xl font-semibold text-white text-center" style={{ fontSize: 35, fontWeight: "bold" }}>
         Data Management & Data Science
     </h3>
-    <h3 className="sm:text-xl font-semibold text-white text-center mb-5" style={{ fontSize: 16 }}>
+    <p className="sm:text-xl font-semibold text-white text-center mb-5" style={{ fontSize: 16 }}>
         Unlock the full potential of your data with our advanced data management and data science services. From meticulous data collection and storage to insightful analysis and recovery, we cover every aspect to help you make data-driven decisions. Our expertise spans Data Analysis, Data Entry, Data Management, Data Migration, and Data Recovery, providing you with the tools to turn data into actionable insights and drive business success.
-    </h3>
+    </p>
 </div>
 
 
@@ -371,7 +364,8 @@ const Data = () => {
                     <Row className="justify-content-center">
                         <Col lg="12">
                             <div >
-                                <h1 className="text-center">Your best benefit</h1>
+                            <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>Your benefits</h3>
+
                             </div>
 
                             <Row className="row-grid justify-content-center" >
@@ -380,9 +374,9 @@ const Data = () => {
                                         <div className="icon icon-primary" style={{ marginBottom: 10 }}>
                                             <PersonAddIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
                                         </div>
-                                        <h4 className="info-title" style={{ marginBottom: 20 }} >Informed Decision-Making</h4>
+                                        <h4 className="info-title" style={{ marginBottom: 20 ,fontWeight:"bold",fontSize:18, }} >Informed Decision-Making</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                        <p style={{ marginBottom: 20,fontSize:16, }} >
                                             By collecting, storing, processing, and analyzing data, businesses can extract valuable insights that facilitate informed decision-making. This leads to strategic advantages and better outcomes.
                                         </p>
                                     </div>
@@ -393,9 +387,9 @@ const Data = () => {
                                             <EngineeringIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
 
                                         </div>
-                                        <h4 className="info-title" style={{ marginBottom: 20 }}>Efficiency and Optimization</h4>
+                                        <h4 className="info-title" style={{ marginBottom: 20 ,fontWeight:"bold",fontSize:18,}}>Efficiency and Optimization</h4>
                                         <hr className="line-warning" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20,fontSize:16 }}>
                                             Effective data management streamlines processes such as data entry, migration, and recovery, enhancing operational efficiency and optimizing resources.
                                         </p>
                                     </div>
@@ -407,9 +401,9 @@ const Data = () => {
                                             <PsychologyIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
 
                                         </div>
-                                        <h4 className="info-title" style={{ marginBottom: 20 }}>Innovation and Competitive Edge</h4>
+                                        <h4 className="info-title" style={{ marginBottom: 20,fontWeight:"bold",fontSize:18, }}>Innovation and Competitive Edge</h4>
                                         <hr className="line-success" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20 ,fontSize:16 }}>
                                             Leveraging data science techniques allows businesses to innovate products and services based on data-driven insights, gaining a competitive edge in their industry.
                                         </p>
                                     </div>

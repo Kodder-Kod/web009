@@ -96,11 +96,11 @@ const pricingPlans = [
         "Email support",
         "Installation guide"
       ],
-      img: require("../../../assets/img/bitcoin.png"), // Corrected image format
+      img: require("../../../assets/img/services/medal.png"), // Corrected image format
       buttonColor: "primary"
     },
     {
-      title: "Intermediate Package",
+     title: "Advanced Package",
       description: "Best Value",
       price: "Ksh 50,000",
       features: [
@@ -111,11 +111,11 @@ const pricingPlans = [
         "Installation assistance",
         "Access logs and reports"
       ],
-      img: require("../../../assets/img/bitcoin.png"), // Corrected image format
+      img: require("../../../assets/img/services/belt.png"), // Corrected image format
       buttonColor: "success"
     },
     {
-      title: "Advanced Package",
+      title: "Premium Package",
       description: "Premium Plan",
       price: "Ksh 80,000",
       features: [
@@ -128,7 +128,7 @@ const pricingPlans = [
         "Training for staff",
         "Full system documentation"
       ],
-      img: require("../../../assets/img/bitcoin.png"), // Corrected image format
+      img: require("../../../assets/img/services/crown.png"), // Corrected image format
       buttonColor: "info"
     }
   ];
@@ -184,21 +184,22 @@ const Biometric = () => {
                 <div className="content-center">
                     <Row className="row-grid justify-content-between align-items-center text-left">
                         <Col lg="6" md="6">
-                            <h1 className="text-white">
+                            <h3 className=" sm:text-5xl font-semibold text-black  " style={{ fontSize: 35, fontWeight: "bold", }}>
+            
                                 Biometric and Automatic Gates
-                            </h1>
-                            <p className="text-white mb-3">
+                            </h3>
+                            <p className="text-white mb-3" style={{ fontSize: 16 }}>
                                 Biometric and automatic gate systems offer advanced security solutions by integrating biometric technology with automated access control. These systems enhance security, streamline access management, and improve overall operational efficiency.
                             </p>
                             <div className="btn-wrapper mb-3">
                                 <p className="category text-success d-inline">
-                                    Order Now
+                                Social Media  
                                 </p>
                                 <Button
                                     className="btn-link"
                                     color="success"
                                     href="#pablo"
-                                    onClick={(e) => e.preventDefault()}
+                                    
                                     size="sm"
                                 >
                                     <i className="tim-icons icon-minimal-right" />
@@ -210,23 +211,23 @@ const Biometric = () => {
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
                                         href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/"
+                                       
                                     >
-                                        <i className="fab fa-dribbble" />
+                                        <i className="fab fa-twitter" />
                                     </Button>
-                                    <Button
+                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://facebook.com/"
+                                       
                                     >
                                         <i className="fab fa-facebook" />
                                     </Button>
@@ -251,7 +252,7 @@ const Biometric = () => {
                     <Row className="justify-content-center">
                         <Col lg="12">
                             <div >
-                                <h1 className="text-center">Your best benefit</h1>
+                                 <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>Your benefits</h3>
                             </div>
 
                             <Row className="row-grid justify-content-center" >
@@ -263,7 +264,7 @@ const Biometric = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Enhanced Security</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                             Utilizes biometric authentication methods, such as fingerprint or facial recognition, to ensure secure access.
                                         </p>
                                     </div>
@@ -275,7 +276,7 @@ const Biometric = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Operational Efficiency</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                             Automates access control, reducing the need for manual intervention and streamlining entry and exit processes.
                                         </p>
                                     </div>
@@ -288,7 +289,7 @@ const Biometric = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>Access Monitoring</h4>
                                         <hr className="line-warning" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                             Provides real-time tracking and logging of access events, improving monitoring and incident response
                                         </p>
                                     </div>
@@ -301,7 +302,7 @@ const Biometric = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>User Convenience</h4>
                                         <hr className="line-success" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                             Divide details about your product or agency work into
                                             Offers a seamless and quick access experience for authorized personnel, reducing wait times and improving user satisfaction.
                                         </p>
@@ -321,10 +322,10 @@ const Biometric = () => {
                     <Row style={{ display: "flex", alignItems: "center", justifyContent: 'center' }} >
                         <Col md="4" style={{ marginTop: 100 }}>
                             <div style={{ display: "flex", alignItems: "center", justifyContent: 'center' }}>
-                                <h1>
+                                  <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>
                                     Pricing
                                     <hr className="line-info" />
-                                </h1>
+                                </h3>
                             </div>
 
                         </Col>

@@ -96,11 +96,11 @@ const pricingPlans = [
         "Basic appointment scheduling",
         "Billing reports"
       ],
-      img: require("../../../assets/img/bitcoin.png"),
+      img: require("../../../assets/img/services/medal.png"),
       buttonColor: "primary"
     },
     {
-      title: "Intermediate Package",
+     title: "Advanced Package",
       description: "Best Value",
       price: "Ksh 50,000",
       features: [
@@ -111,11 +111,11 @@ const pricingPlans = [
         "Automated billing",
         "Priority support"
       ],
-      img: require("../../../assets/img/bitcoin.png"),
+      img: require("../../../assets/img/services/belt.png"),
       buttonColor: "success"
     },
     {
-      title: "Advanced Package",
+      title: "Premium Package",
       description: "Premium Plan",
       price: "Ksh 90,000",
       features: [
@@ -128,7 +128,7 @@ const pricingPlans = [
         "Third-party integrations",
         "24/7 support"
       ],
-      img: require("../../../assets/img/bitcoin.png"),
+      img: require("../../../assets/img/services/crown.png"),
       buttonColor: "info"
     }
   ];
@@ -182,21 +182,22 @@ const Hospital = () => {
                 <div className="content-center">
                     <Row className="row-grid justify-content-between align-items-center text-left">
                         <Col lg="6" md="6">
-                            <h1 className="text-white">
+                            <h3 className=" sm:text-5xl font-semibold text-black  " style={{ fontSize: 35, fontWeight: "bold", }}>
+            
                             Hospital Management System
-                            </h1>
-                            <p className="text-white mb-3">
+                            </h3>
+                            <p className="text-white mb-3" style={{ fontSize: 16 }}>
                             Hospital management system integrates various functions within a healthcare facility, including patient registration, appointment scheduling, billing, and medical records management. It aims to improve patient care and streamline hospital operations.
                             </p>
                             <div className="btn-wrapper mb-3">
                                 <p className="category text-success d-inline">
-                                  Order Now
+                                Social Media  
                                 </p>
                                 <Button
                                     className="btn-link"
                                     color="success"
                                     href="#pablo"
-                                    onClick={(e) => e.preventDefault()}
+                                    
                                     size="sm"
                                 >
                                     <i className="tim-icons icon-minimal-right" />
@@ -204,27 +205,20 @@ const Hospital = () => {
                             </div>
                             <div className="btn-wrapper">
                                 <div className="button-container">
+                                
                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/"
+                                       
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
-                                    <Button
+                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                    >
-                                        <i className="fab fa-dribbble" />
-                                    </Button>
-                                    <Button
-                                        className="btn-icon btn-simple btn-round btn-neutral"
-                                        color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://facebook.com/"
+                                       
                                     >
                                         <i className="fab fa-facebook" />
                                     </Button>
@@ -249,7 +243,7 @@ const Hospital = () => {
                     <Row className="justify-content-center">
                         <Col lg="12">
                             <div >
-                                <h1 className="text-center">Your best benefit</h1>
+                                 <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>Your benefits</h3>
                             </div>
 
                             <Row className="row-grid justify-content-center" >
@@ -262,7 +256,7 @@ const Hospital = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Patient Care</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                         Enhances patient care by providing easy access to medical records and streamlining appointment scheduling, ensuring timely and efficient treatment, and improving overall patient satisfaction.
                                         </p>
                                     </div>
@@ -274,7 +268,7 @@ const Hospital = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Operational Efficiency</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                         Reduces administrative burden by automating billing, insurance claims, and other processes, allowing healthcare providers to focus on patient care and reducing the potential for human error.
                                         </p>
                                     </div>
@@ -287,7 +281,7 @@ const Hospital = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>Data Security</h4>
                                         <hr className="line-warning" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                         Ensures secure storage and management of patient data, complying with privacy regulations and safeguarding sensitive information, preventing unauthorized access and data breaches.
                                    </p>
                                     </div>
@@ -300,7 +294,7 @@ const Hospital = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>Resource Management</h4>
                                         <hr className="line-success" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                         Optimizes the use of hospital resources, including staff, equipment, and facilities, leading to improved service delivery and reduced costs, enhancing the hospital's operational efficiency.
                                         </p>
                                     </div>
@@ -319,10 +313,10 @@ const Hospital = () => {
                     <Row style={{ display: "flex", alignItems: "center", justifyContent: 'center' }} >
                         <Col md="4" style={{ marginTop: 100 }}>
                             <div style={{ display: "flex", alignItems: "center", justifyContent: 'center' }}>
-                                <h1>
+                                  <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>
                                     Pricing
                                     <hr className="line-info" />
-                                </h1>
+                                </h3>
                             </div>
 
                         </Col>

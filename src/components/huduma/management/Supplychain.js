@@ -98,11 +98,11 @@ const pricingPlans = [
         "Inventory management",
         "Basic reports"
       ],
-      img: require("../../../assets/img/bitcoin.png"),
+      img: require("../../../assets/img/services/medal.png"),
       buttonColor: "primary"
     },
     {
-      title: "Intermediate Package",
+     title: "Advanced Package",
       description: "Best Value",
       price: "Ksh 50,000",
       features: [
@@ -113,11 +113,11 @@ const pricingPlans = [
         "Demand forecasting",
         "Priority support"
       ],
-      img: require("../../../assets/img/bitcoin.png"),
+      img: require("../../../assets/img/services/belt.png"),
       buttonColor: "success"
     },
     {
-      title: "Advanced Package",
+      title: "Premium Package",
       description: "Premium Plan",
       price: "Ksh 80,000",
       features: [
@@ -130,7 +130,7 @@ const pricingPlans = [
         "Blockchain support",
         "24/7 premium support"
       ],
-      img: require("../../../assets/img/bitcoin.png"),
+      img: require("../../../assets/img/services/crown.png"),
       buttonColor: "info"
     }
   ];
@@ -185,21 +185,22 @@ const SupplyChain = () => {
                 <div className="content-center">
                     <Row className="row-grid justify-content-between align-items-center text-left">
                         <Col lg="6" md="6">
-                            <h1 className="text-white">
+                            <h3 className=" sm:text-5xl font-semibold text-black  " style={{ fontSize: 35, fontWeight: "bold", }}>
+            
                                 Supply Chain Management System
-                            </h1>
-                            <p className="text-white mb-3">
+                            </h3>
+                            <p className="text-white mb-3" style={{ fontSize: 16 }}>
                                 Supply chain management system integrates and manages the flow of goods, information, and finances across the entire supply chain. It enhances coordination and collaboration among suppliers, manufacturers, distributors, and retailers.
                             </p>
                             <div className="btn-wrapper mb-3">
                                 <p className="category text-success d-inline">
-                                    Order Now
+                                Social Media  
                                 </p>
                                 <Button
                                     className="btn-link"
                                     color="success"
                                     href="#pablo"
-                                    onClick={(e) => e.preventDefault()}
+                                   
                                     size="sm"
                                 >
                                     <i className="tim-icons icon-minimal-right" />
@@ -211,7 +212,7 @@ const SupplyChain = () => {
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
                                         href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                       
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
@@ -219,7 +220,7 @@ const SupplyChain = () => {
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
                                         href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                       
                                     >
                                         <i className="fab fa-dribbble" />
                                     </Button>
@@ -227,7 +228,7 @@ const SupplyChain = () => {
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
                                         href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                       
                                     >
                                         <i className="fab fa-facebook" />
                                     </Button>
@@ -252,7 +253,7 @@ const SupplyChain = () => {
                     <Row className="justify-content-center">
                         <Col lg="12">
                             <div >
-                                <h1 className="text-center">Your best benefit</h1>
+                                <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>Your benefits</h3>
                             </div>
 
                             <Row className="row-grid justify-content-center" >
@@ -264,7 +265,7 @@ const SupplyChain = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Visibility</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                       <p style={{ marginBottom: 20,fontSize:16 }} >
                                             Provides end-to-end visibility of the supply chain, enabling better decision-making and more efficient operations.
                                         </p>
                                     </div>
@@ -276,7 +277,7 @@ const SupplyChain = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Collaboration</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                       <p style={{ marginBottom: 20,fontSize:16 }} >
                                             Enhances collaboration and communication among supply chain partners, improving efficiency and reducing delays.
                                         </p>
                                     </div>
@@ -289,7 +290,7 @@ const SupplyChain = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>Risk Management</h4>
                                         <hr className="line-warning" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20,fontSize:16 }} >
                                             Identifies and mitigates supply chain risks, ensuring continuity and resilience, and minimizing disruptions.
                                         </p>
                                     </div>
@@ -302,7 +303,7 @@ const SupplyChain = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>Cost Reduction</h4>
                                         <hr className="line-success" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20,fontSize:16 }} >
                                             Reduces costs by optimizing procurement, inventory management, and logistics, leading to improved profitability.
                                         </p>
                                     </div>
@@ -322,10 +323,10 @@ const SupplyChain = () => {
                     <Row style={{ display: "flex", alignItems: "center", justifyContent: 'center' }} >
                         <Col md="4" style={{ marginTop: 100 }}>
                             <div style={{ display: "flex", alignItems: "center", justifyContent: 'center' }}>
-                                <h1>
+                                  <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>
                                     Pricing
                                     <hr className="line-info" />
-                                </h1>
+                                </h3>
                             </div>
 
                         </Col>

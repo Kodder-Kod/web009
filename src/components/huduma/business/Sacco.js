@@ -98,11 +98,11 @@ const pricingPlans = [
         "Single-user access (admin)",
         "Monthly financial reports"
       ],
-      img: require("../../../assets/img/bitcoin.png"),
+      img: require("../../../assets/img/services/medal.png"),
       buttonColor: "primary"
     },
     {
-      title: "Intermediate Package",
+      title: "Advanced Package",
       description: "Best Value",
       price: "Ksh 2000/month",
       features: [
@@ -113,11 +113,11 @@ const pricingPlans = [
         "Basic member portal",
         "Email & chat support"
       ],
-      img: require("../../../assets/img/bitcoin.png"),
+      img: require("../../../assets/img/services/belt.png"),
       buttonColor: "success"
     },
     {
-      title: "Advanced Package",
+      title: "Premium Package",
       description: "Premium Plan",
       price: "Ksh 3000/month",
       features: [
@@ -130,7 +130,7 @@ const pricingPlans = [
         "Comprehensive financial reports",
         "24/7 premium support"
       ],
-      img: require("../../../assets/img/bitcoin.png"),
+      img: require("../../../assets/img/services/crown.png"),
       buttonColor: "info"
     }
   ];
@@ -186,21 +186,22 @@ const Sacco = () => {
                 <div className="content-center">
                     <Row className="row-grid justify-content-between align-items-center text-left">
                         <Col lg="6" md="6">
-                            <h1 className="text-white">
+                            <h3 className=" sm:text-5xl font-semibold text-black  " style={{ fontSize: 35, fontWeight: "bold", }}>
+            
                             Savings and Credit Cooperative Organizations (SACCOs)
-                            </h1>
-                            <p className="text-white mb-3">
+                            </h3>
+                            <p className="text-white mb-3" style={{ fontSize: 16 }}>
                             SACCOs provide financial services to members, including savings and credit facilities. They are member-owned, offering competitive interest rates and fostering community financial well-being. SACCOs play a crucial role in promoting financial inclusion and supporting local economies.
                             </p>
                             <div className="btn-wrapper mb-3">
                                 <p className="category text-success d-inline">
-                                 Download App
+                                Social Media  
                                 </p>
                                 <Button
                                     className="btn-link"
                                     color="success"
                                     href="#pablo"
-                                    onClick={(e) => e.preventDefault()}
+                                    
                                     size="sm"
                                 >
                                     <i className="tim-icons icon-minimal-right" />
@@ -208,27 +209,20 @@ const Sacco = () => {
                             </div>
                             <div className="btn-wrapper">
                                 <div className="button-container">
+                                
                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/"
+                                       
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
-                                    <Button
+                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                    >
-                                        <i className="fab fa-dribbble" />
-                                    </Button>
-                                    <Button
-                                        className="btn-icon btn-simple btn-round btn-neutral"
-                                        color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://facebook.com/"
+                                       
                                     >
                                         <i className="fab fa-facebook" />
                                     </Button>
@@ -265,7 +259,7 @@ const Sacco = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Member Benefits</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                         Profits are shared among members, providing financial returns and incentives for participation.
                                         </p>
                                     </div>
@@ -277,7 +271,7 @@ const Sacco = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Affordable Credit</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                         Offers low-interest loans to members, making credit accessible and affordable for personal and business needs.
                                         </p>
                                     </div>
@@ -322,10 +316,10 @@ const Sacco = () => {
                     <Row style={{ display: "flex", alignItems: "center", justifyContent: 'center' }} >
                         <Col md="4" style={{ marginTop: 100 }}>
                             <div style={{ display: "flex", alignItems: "center", justifyContent: 'center' }}>
-                                <h1>
+                                  <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>
                                     Pricing
                                     <hr className="line-info" />
-                                </h1>
+                                </h3>
                             </div>
 
                         </Col>

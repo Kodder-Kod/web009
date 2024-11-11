@@ -124,31 +124,31 @@ const items = [
 const followerCard = [
   {
     title: "Brandon Omondi",
-    para: "Mariwa VCT equipped me with essential skills in Motor Vehicle Mechanics, making me proficient in managing both projects and clients efficiently.",
-    opp: "Workshop Supervisor",
+    para: "I discovered Mariwa VCT's Motor Vehicle Mechanics course, applied, and quickly got enrolled. The program has set me on a promising career path.",
+    opp: "Student",
     location: "Kisumu, Kenya",
     avatar:
       "https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/profile/user-1.jpg"
   },
   {
     title: "Irene Nejri",
-    para: "Caveron helped streamline our online presence by building a website for our SME. Now, we manage orders and client inquiries seamlessly, boosting our supply operations.",
-    opp: "Operations Manager",
+    para: "Caveron website helped streamline our online presence by building a website for our SME. Now, we manage orders and client inquiries seamlessly, boosting our supply operations.",
+    opp: "Digital Marker",
     location: "Mombasa, Kenya",
     avatar:
       "https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/profile/user-2.jpg"
   },
   {
     title: "Brian Wafula",
-    para: "Twesa, the event planning app, has revolutionized my business. It allows me to organize events with precision, saving time and improving customer satisfaction.",
-    opp: "Event Planner",
+    para: "Tawala, the Tender management app, has revolutionized my business. It allows me to organize tenders with precision, saving time and improving customer satisfaction.",
+    opp: "Operational Manager",
     location: "Nairobi, Kenya",
     avatar:
       "https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/images/profile/user-3.jpg"
   },
   {
     title: "Scott Summers",
-    para: "The Chisend ERP app has been a game-changer for my business operations. From tracking inventory to managing payroll, it simplifies day-to-day tasks and boosts efficiency.",
+    para: "The Chisend business app has been a game-changer for my business operations. From tracking inventory to managing payroll, it simplifies day-to-day tasks and boosts efficiency.",
     opp: "Entrepreneur",
     location: "Nairobi, Kenya",
     avatar:
@@ -180,7 +180,7 @@ const CATEGORIES = [
   {
     img: blog13,
     icon: <AiFillAndroid />,
-    title: "Chi-Send POS",
+    title: "Chisend POS",
     desc: "Launch on October 2024",
   },
 ];
@@ -200,7 +200,7 @@ export default function PageHeader() {
         <div className="squares square7" />
         <Container>
           <div className="content-center brand " >
-            <h1 className="h1-seo " >Chi-Send</h1>
+            <h1 className="h1-seo" >Chisend</h1>
             <h3 className="d-none d-sm-block">
               Experience Technology into Wealth
             </h3>
@@ -221,12 +221,15 @@ export default function PageHeader() {
 
             <Col lg="6">
               <div className="px-md-5">
-                <h1>Who are we </h1>
+                <h1 className="h1-seo"style={{fontSize:35}}>Who are we </h1>
                 <hr className="line-success" />
                 <div style={{ margin: 50 }}></div>
 
                 <p style={{ fontSize: 16 }}>
-                  At Chi-Send, we are a dynamic startup based in Nairobi, Kenya, dedicated to transforming technology into wealth. Founded in 2024, we specialize in using the latest models to develop advanced solutions for real-world situations. Our goal is to help businesses, institutions, and individuals save resources, increase productivity, and enhance networking. Our commitment to innovation and excellence drives us to create impactful software that meets the diverse needs of our clients across Kenya.
+                  At Chisend, we are a dynamic startup based in Nairobi, Kenya, dedicated to transforming technology into wealth. Founded in 2024, we specialize in using the latest models to develop advanced solutions for real-world situations.
+                </p>
+                <p style={{ fontSize: 16 }}>
+                  Our goal is to help businesses, institutions, and individuals save resources, increase productivity, and enhance networking. Our commitment to innovation and excellence drives us to create impactful software that meets the diverse needs of our clients across Kenya.
                 </p>
                 {/**
  * 
@@ -341,9 +344,12 @@ export default function PageHeader() {
 
               <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8 ">
 
-                <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 40, fontWeight: "bold", }}>Services </h3>
+                <div className="px-md-5">
+                  <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold",fontSize:35 }}>Services</h3>
 
-                <h3 className=" sm:text-5xl font-semibold text-black text-center mb-5" style={{ fontSize: 15, }}>Explore our IT solutions: tailored software, management systems, custom web/app development, data analysis, networking infrastructure, and help desk services. Transform your business with our expertise. </h3>
+                </div>
+
+                <p className=" sm:text-5xl font-semibold text-black text-center mb-5" style={{ fontSize: 16, }}>Explore our IT solutions: tailored software, management systems, custom web/app development, data analysis, networking infrastructure, and help desk services. Transform your business with our expertise. </p>
               </div>
 
 
@@ -416,10 +422,13 @@ export default function PageHeader() {
 
             <Col md="6">
               <div className="px-5">
-                <h1 style={{ fontSize: 40 }}>About Us</h1>
+                <h1 className="h1-seo" style={{fontSize:35}}>About Us</h1>
                 <hr className="line-success m" />
                 <p style={{ fontSize: 16 }}>
-                  Chi-Send began its journey in 2024 with our flagship product, ChiSend POS. Since then, we have expanded our portfolio to include three websites, one mobile app, and a SACCO management system, serving a growing list of clients across Kenya. Our team consists of skilled professionals who bring a wealth of experience and a deep understanding of the latest technologies. We believe in fostering a culture of continuous learning, collaboration, and integrity, which reflects in the quality of our work and our relationships with clients.
+                  Chisend began its journey in 2024 with our flagship product, ChiSend POS. Since then, we have expanded our portfolio to include three websites, one mobile app, and a SACCO management system, serving a growing list of clients across Kenya.
+                </p>
+                <p style={{ fontSize: 16 }}>
+                  Our team consists of skilled professionals who bring a wealth of experience and a deep understanding of the latest technologies. We believe in fostering a culture of continuous learning, collaboration, and integrity, which reflects in the quality of our work and our relationships with clients.
                 </p>
                 {/**
                  * 
@@ -521,13 +530,13 @@ export default function PageHeader() {
 
       < section id="portfolio">
         <div className="mb-20 grid place-items-center text-center">
-          <Typography variant="h4" color="blue-gray" className="my-3">
-            Portfolio
-          </Typography>
-          <Typography variant="lead" className="text-white lg:w-6/12">
+          <h1 className="h1-seo" style={{fontSize:35}}>PortFolio</h1>
+  
+
+          <p className=" sm:text-5xl font-semibold text-black text-center mb-5" style={{ fontSize: 16 , }}>
             A comprehensive selection of courses designed to empower you with the
             skills you need to thrive in the dynamic world of web development.
-          </Typography>
+          </p>
 
         </div>
         <div style={{ display: "flex", justifyContent: 'center', alignItems: 'center', }}>
@@ -596,7 +605,7 @@ export default function PageHeader() {
               <div className="absolute inset-0 h-full w-full bg-gray-900/75" />
               <CardBody >
                 <Typography color="white" className="text-xs font-bold opacity-50">
-       Chi-Send POS
+       Chisend POS
                 </Typography>
            
                 <Typography
@@ -629,7 +638,8 @@ export default function PageHeader() {
       </>
       <section className="section">
         <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8 ">
-          <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 40, fontWeight: "bold", }}> The Chi-Send Experience </h3>
+        <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}> The Chisend Experience </h3>
+    
         </div>
 
         <img
@@ -760,8 +770,8 @@ export default function PageHeader() {
 
 
           <div className="mx-auto max-w-2xl py-2 px-4 sm:px-6 lg:max-w-7xl lg:px-8 ">
-
-            <h3 className=" sm:text-5xl font-semibold text-black text-center my-3" style={{ fontSize: 40, fontWeight: "bold", }}>Testimonies</h3>
+          <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>Testimonies</h3>
+       
           </div>
 
           <Grid container spacing={2}  >

@@ -96,7 +96,7 @@ const pricingPlans = [
         "Basic research",
         "Email support"
       ],
-      img: require("../../../assets/img/bitcoin.png"), // Corrected image format
+      img: require("../../../assets/img/services/medal.png"), // Corrected image format
       buttonColor: "primary"
     },
     {
@@ -110,11 +110,11 @@ const pricingPlans = [
         "Email & phone support",
         "2 revisions"
       ],
-      img: require("../../../assets/img/bitcoin.png"), // Corrected image format
+      img: require("../../../assets/img/services/belt.png"), // Corrected image format
       buttonColor: "success"
     },
     {
-      title: "Advanced Package",
+      title: "Premium Package",
       description: "Premium Plan",
       price: "From Ksh 5,000",
       features: [
@@ -126,7 +126,7 @@ const pricingPlans = [
         "Plagiarism report",
         "24/7 premium support"
       ],
-      img: require("../../../assets/img/bitcoin.png"), // Corrected image format
+      img: require("../../../assets/img/services/crown.png"), // Corrected image format
       buttonColor: "info"
     }
   ];
@@ -182,21 +182,22 @@ const Project = () => {
                 <div className="content-center">
                     <Row className="row-grid justify-content-between align-items-center text-left">
                         <Col lg="6" md="6">
-                            <h1 className="text-white">
+                            <h3 className=" sm:text-5xl font-semibold text-black  " style={{ fontSize: 35, fontWeight: "bold", }}>
+            
                             Projects and Writing Assignments
-                            </h1>
-                            <p className="text-white mb-3">
+                            </h3>
+                            <p className="text-white mb-3" style={{ fontSize: 16 }}>
                             We offer assistance with various projects and writing assignments, providing high-quality, professional content tailored to your specific requirements.
                             </p>
                             <div className="btn-wrapper mb-3">
                                 <p className="category text-success d-inline">
-                                    Order Now
+                                Social Media  
                                 </p>
                                 <Button
                                     className="btn-link"
                                     color="success"
                                     href="#pablo"
-                                    onClick={(e) => e.preventDefault()}
+                                    
                                     size="sm"
                                 >
                                     <i className="tim-icons icon-minimal-right" />
@@ -204,27 +205,20 @@ const Project = () => {
                             </div>
                             <div className="btn-wrapper">
                                 <div className="button-container">
+                                
                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/"
+                                       
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
-                                    <Button
+                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                    >
-                                        <i className="fab fa-dribbble" />
-                                    </Button>
-                                    <Button
-                                        className="btn-icon btn-simple btn-round btn-neutral"
-                                        color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://facebook.com/"
+                                       
                                     >
                                         <i className="fab fa-facebook" />
                                     </Button>
@@ -249,7 +243,7 @@ const Project = () => {
                     <Row className="justify-content-center">
                         <Col lg="12">
                             <div >
-                                <h1 className="text-center">Your best benefit</h1>
+                                 <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>Your benefits</h3>
                             </div>
 
                             <Row className="row-grid justify-content-center" >
@@ -261,7 +255,7 @@ const Project = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Expertise</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                         Leverages the expertise of professional writers and project managers to deliver high-quality content and project execution.
                                         </p>
                                     </div>
@@ -273,7 +267,7 @@ const Project = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Customization:</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                         Offers personalized solutions tailored to your specific project and writing needs, ensuring relevance and effectiveness.
                                         </p>
                                     </div>
@@ -285,7 +279,7 @@ const Project = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>Time Management:</h4>
                                         <hr className="line-warning" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                         Helps manage time efficiently, ensuring projects and assignments are completed on schedule..
                                         </p>
                                     </div>
@@ -297,7 +291,7 @@ const Project = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>Quality Assurance:</h4>
                                         <hr className="line-success" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                         Ensures all content and project deliverables meet high standards of quality and professionalism.
                                         </p>
                                     </div>
@@ -317,10 +311,10 @@ const Project = () => {
                     <Row style={{ display: "flex", alignItems: "center", justifyContent: 'center' }} >
                         <Col md="4" style={{ marginTop: 100 }}>
                             <div style={{ display: "flex", alignItems: "center", justifyContent: 'center' }}>
-                                <h1>
+                                  <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>
                                     Pricing
                                     <hr className="line-info" />
-                                </h1>
+                                </h3>
                             </div>
 
                         </Col>

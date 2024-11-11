@@ -309,7 +309,7 @@ export default function ProfilePage() {
                     className="btn-simple"
                     color="primary"
                     href="#pablo"
-                    onClick={(e) => e.preventDefault()}
+                    
                   >
                     <i className="tim-icons icon-book-bookmark" /> Bookmark
                   </Button>
@@ -317,7 +317,7 @@ export default function ProfilePage() {
                     className="btn-simple"
                     color="info"
                     href="#pablo"
-                    onClick={(e) => e.preventDefault()}
+                    
                   >
                     <i className="tim-icons icon-bulb-63" /> Check it!
                   </Button>

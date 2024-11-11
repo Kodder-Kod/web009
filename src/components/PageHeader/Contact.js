@@ -80,7 +80,8 @@ const ContactApi = () => {
                 <Container>
 
                     <div className="mx-auto max-w-2xl py-2 px-4 sm:px-6 lg:max-w-7xl lg:px-8 ">
-                        <h3 className=" sm:text-5xl font-semibold text-black text-center my-3" style={{ fontSize: 40, fontWeight: "bold", }}>Contact </h3>
+                        <h1 className="h1-seo" style={{ fontSize: 35, fontWeight: "bold", }}>Contact </h1>
+                        <hr className="line-success" />
                     </div>
 
                     <Row>
@@ -164,9 +165,9 @@ const ContactApi = () => {
                                     <i className="tim-icons icon-square-pin" />
                                 </div>
                                 <div className="description">
-                                    <h4 className="info-title">Find us at the office</h4>
-                                    <p>
-                                        Chi-Send Offices , Utawala <br />
+                                    <h4 className="info-title" style={{fontStyle:18, fontWeight:"bold"}}>Find us at the office</h4>
+                                    <p style ={{fontSize:16}}>
+                                        Chisend Offices , Utawala <br />
                                         Mon - Sat,07:00-19:00 <br />
                                         Nairobi , Kenya <br />
                                     </p>
@@ -178,9 +179,9 @@ const ContactApi = () => {
                                     <i className="tim-icons icon-mobile" />
                                 </div>
                                 <div className="description">
-                                    <h4 className="info-title">Connect with us </h4>
-                                    <p>
-                                        Chi-send contact <br />
+                                    <h4 className="info-title" style ={{fontSize:18, fontWeight:"bold"}}>Connect with us </h4>
+                                    <p style ={{fontSize:16}}>
+                                        Chisend contact <br />
                                         Brian Adema Trent <br />
                                         +254794410921 <br />
                                         trentbrian007@gmail.com

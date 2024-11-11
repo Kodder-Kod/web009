@@ -95,11 +95,11 @@ const pricingPlans = [
         "Email support",
         "Monthly follow-up"
       ],
-      img: require("../../../assets/img/bitcoin.png"), // Corrected image format
+      img: require("../../../assets/img/services/medal.png"), // Corrected image format
       buttonColor: "primary"
     },
     {
-      title: "Intermediate Package",
+     title: "Advanced Package",
       description: "Best Value",
       price: "Ksh 10,000",
       features: [
@@ -110,11 +110,11 @@ const pricingPlans = [
         "Strategy development",
         "Technology recommendations"
       ],
-      img: require("../../../assets/img/bitcoin.png"), // Corrected image format
+      img: require("../../../assets/img/services/belt.png"), // Corrected image format
       buttonColor: "success"
     },
     {
-      title: "Advanced Package",
+      title: "Premium Package",
       description: "Premium Plan",
       price: "Ksh 15,000",
       features: [
@@ -127,7 +127,7 @@ const pricingPlans = [
         "Performance monitoring",
         "24/7 premium support"
       ],
-      img: require("../../../assets/img/bitcoin.png"), // Corrected image format
+      img: require("../../../assets/img/services/crown.png"), // Corrected image format
       buttonColor: "info"
     }
   ];
@@ -182,21 +182,22 @@ const Consultant = () => {
                 <div className="content-center">
                     <Row className="row-grid justify-content-between align-items-center text-left">
                         <Col lg="6" md="6">
-                            <h1 className="text-white">
+                            <h3 className=" sm:text-5xl font-semibold text-black  " style={{ fontSize: 35, fontWeight: "bold", }}>
+            
                             IT Consultant
-                            </h1>
-                            <p className="text-white mb-3">
+                            </h3>
+                            <p className="text-white mb-3" style={{ fontSize: 16 }}>
                             IT consulting services provide expert advice and solutions to optimize your IT infrastructure and operations. Our consultants help you leverage technology to achieve your business goals efficiently.
                             </p>
                             <div className="btn-wrapper mb-3">
                                 <p className="category text-success d-inline">
-                                    Order Now
+                                Social Media  
                                 </p>
                                 <Button
                                     className="btn-link"
                                     color="success"
                                     href="#pablo"
-                                    onClick={(e) => e.preventDefault()}
+                                    
                                     size="sm"
                                 >
                                     <i className="tim-icons icon-minimal-right" />
@@ -204,27 +205,20 @@ const Consultant = () => {
                             </div>
                             <div className="btn-wrapper">
                                 <div className="button-container">
+                                
                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/"
+                                       
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
-                                    <Button
+                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                    >
-                                        <i className="fab fa-dribbble" />
-                                    </Button>
-                                    <Button
-                                        className="btn-icon btn-simple btn-round btn-neutral"
-                                        color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://facebook.com/"
+                                       
                                     >
                                         <i className="fab fa-facebook" />
                                     </Button>
@@ -261,7 +255,7 @@ const Consultant = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Expert Guidance</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                         Provides access to experienced IT professionals who offer strategic advice and solutions tailored to your business needs.
                                         </p>
                                     </div>
@@ -273,7 +267,7 @@ const Consultant = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Efficiency Improvement</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                         Identifies and implements best practices to streamline IT operations, improving overall efficiency and productivity.
                                         </p>
                                     </div>
@@ -286,7 +280,7 @@ const Consultant = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>Cost Reduction</h4>
                                         <hr className="line-warning" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                         Helps reduce IT costs through optimized resource allocation and strategic planning.
                                         </p>
                                     </div>
@@ -299,7 +293,7 @@ const Consultant = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>Technology Adoption</h4>
                                         <hr className="line-success" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                         Assists in adopting the latest technologies, ensuring your business stays competitive and up-to-date.
 
                                         </p>
@@ -320,10 +314,10 @@ const Consultant = () => {
                     <Row style={{ display: "flex", alignItems: "center", justifyContent: 'center' }} >
                         <Col md="4" style={{ marginTop: 100 }}>
                             <div style={{ display: "flex", alignItems: "center", justifyContent: 'center' }}>
-                                <h1>
+                                  <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>
                                     Pricing
                                     <hr className="line-info" />
-                                </h1>
+                                </h3>
                             </div>
 
                         </Col>

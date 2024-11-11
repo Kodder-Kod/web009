@@ -96,11 +96,11 @@ const pricingPlans = [
         "Single-user access",
         "Payroll reports"
       ],
-      img: require("../../../assets/img/bitcoin.png"),
+      img: require("../../../assets/img/services/medal.png"),
       buttonColor: "primary"
     },
     {
-      title: "Intermediate Package",
+     title: "Advanced Package",
       description: "Best Value",
       price: "Ksh 700/month",
       features: [
@@ -111,11 +111,11 @@ const pricingPlans = [
         "Custom pay schedules",
         "Priority support"
       ],
-      img: require("../../../assets/img/bitcoin.png"),
+      img: require("../../../assets/img/services/belt.png"),
       buttonColor: "success"
     },
     {
-      title: "Advanced Package",
+      title: "Premium Package",
       description: "Premium Plan",
       price: "Ksh 1200/month",
       features: [
@@ -128,7 +128,7 @@ const pricingPlans = [
         "Bonus management",
         "24/7 support"
       ],
-      img: require("../../../assets/img/bitcoin.png"),
+      img: require("../../../assets/img/services/crown.png"),
       buttonColor: "info"
     }
   ];
@@ -184,21 +184,22 @@ const Payroll = () => {
                 <div className="content-center">
                     <Row className="row-grid justify-content-between align-items-center text-left">
                         <Col lg="6" md="6">
-                            <h1 className="text-white">
+                            <h3 className=" sm:text-5xl font-semibold text-black  " style={{ fontSize: 35, fontWeight: "bold", }}>
+            
                             Payroll Systems
-                            </h1>
-                            <p className="text-white mb-3">
+                            </h3>
+                            <p className="text-white mb-3" style={{ fontSize: 16 }}>
                             Payroll systems automate the process of managing employee salaries, tax deductions, and other related tasks. They ensure accuracy, compliance with regulations, and timely payment of employees. These systems help businesses save time, reduce errors, and improve employee satisfaction.
                             </p>
                             <div className="btn-wrapper mb-3">
                                 <p className="category text-success d-inline">
-                                Download App
+                                Social Media  
                                 </p>
                                 <Button
                                     className="btn-link"
                                     color="success"
                                     href="#pablo"
-                                    onClick={(e) => e.preventDefault()}
+                                    
                                     size="sm"
                                 >
                                     <i className="tim-icons icon-minimal-right" />
@@ -206,21 +207,14 @@ const Payroll = () => {
                             </div>
                             <div className="btn-wrapper">
                                 <div className="button-container">
+                                
                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/"
+                                       
                                     >
                                         <i className="fab fa-twitter" />
-                                    </Button>
-                                    <Button
-                                        className="btn-icon btn-simple btn-round btn-neutral"
-                                        color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                    >
-                                        <i className="fab fa-dribbble" />
                                     </Button>
                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
@@ -251,7 +245,7 @@ const Payroll = () => {
                     <Row className="justify-content-center">
                         <Col lg="12">
                             <div >
-                                <h1 className="text-center">Your best benefit</h1>
+                                 <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>Your benefits</h3>
                             </div>
 
                             <Row className="row-grid justify-content-center" >
@@ -263,7 +257,7 @@ const Payroll = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Efficiency</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                         Streamlined payroll processing reduces the time and effort required to manage employee payments.
                                         </p>
                                     </div>
@@ -275,7 +269,7 @@ const Payroll = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Compliance</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                         Ensures adherence to tax and labor laws, reducing the risk of legal issues and penalties.
                                         </p>
                                     </div>
@@ -320,10 +314,10 @@ const Payroll = () => {
                     <Row style={{ display: "flex", alignItems: "center", justifyContent: 'center' }} >
                         <Col md="4" style={{ marginTop: 100 }}>
                             <div style={{ display: "flex", alignItems: "center", justifyContent: 'center' }}>
-                                <h1>
+                                  <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>
                                     Pricing
                                     <hr className="line-info" />
-                                </h1>
+                                </h3>
                             </div>
 
                         </Col>

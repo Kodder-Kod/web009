@@ -214,21 +214,21 @@ const Management = () => {
                 <div className="content-center">
                     <Row className="row-grid justify-content-between align-items-center text-left">
                         <Col lg="6" md="6">
-                            <h1 className="text-white">
+                        <h3 className=" sm:text-5xl font-semibold text-black  " style={{ fontSize: 35, fontWeight: "bold", }}>
                                 Management Systems
-                            </h1>
-                            <p className="text-white mb-3">
+                            </h3>
+                            <p className="text-white mb-3" style={{fontSize:16}}>
                                 Management systems are designed to streamline and optimize various operations within different industries. They help organizations manage resources efficiently, improve service delivery, and enhance overall productivity. This guide provides an overview of key management systems and their benefits
                             </p>
                             <div className="btn-wrapper mb-3">
                                 <p className="category text-success d-inline">
-                                    Download App
+                                Social Media  
                                 </p>
                                 <Button
                                     className="btn-link"
                                     color="success"
-                                    href="#pablo"
-                                    onClick={(e) => e.preventDefault()}
+                                    href="#Services"
+                                   
                                     size="sm"
                                 >
                                     <i className="tim-icons icon-minimal-right" />
@@ -239,24 +239,17 @@ const Management = () => {
                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/"
+                                       
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
+                                  
                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                    >
-                                        <i className="fab fa-dribbble" />
-                                    </Button>
-                                    <Button
-                                        className="btn-icon btn-simple btn-round btn-neutral"
-                                        color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://facebook.com/"
+                                       
                                     >
                                         <i className="fab fa-facebook" />
                                     </Button>
@@ -299,12 +292,12 @@ const Management = () => {
 
 
 <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8 ">
-    <h3 className="sm:text-4xl font-semibold text-white text-center" style={{ fontSize: 30, fontWeight: "bold" }}>
+    <h3 className="sm:text-4xl font-semibold text-white text-center" style={{ fontSize: 35, fontWeight: "bold" }}>
         Advanced Management Systems
     </h3>
-    <h3 className="sm:text-xl font-semibold text-white text-center mb-5" style={{ fontSize: 16 }}>
+    <p className="sm:text-xl font-semibold text-white text-center mb-5" style={{ fontSize: 16 }}>
         Elevate your operations with our cutting-edge management systems. Designed to streamline and optimize processes across various industries, our solutions enhance resource management, improve service delivery, and boost overall productivity. Explore how our management systems can transform your organization, making it more efficient and responsive to your needs.
-    </h3>
+    </p>
 </div>
 
 
@@ -370,7 +363,8 @@ const Management = () => {
                     <Row className="justify-content-center">
                         <Col lg="12">
                             <div >
-                                <h1 className="text-center">Your best benefit</h1>
+                             
+                            <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>Your benefits</h3>
                             </div>
 
                             <Row className="row-grid justify-content-center" >
@@ -381,9 +375,9 @@ const Management = () => {
                                          
                                             <MoreTimeIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
                                         </div>
-                                        <h4 className="info-title" style={{ marginBottom: 20 }} >Efficient Resource Management</h4>
+                                        <h4 className="info-title" style={{ marginBottom: 20,fontSize:18, fontWeight:"bold" }} >Efficient Resource Management</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                        <p style={{ marginBottom: 20,fontSize:16 }} >
                                         Management systems streamline how resources are allocated and utilized, reducing inefficiencies and minimizing waste.
                                         </p>
                                     </div>
@@ -395,9 +389,9 @@ const Management = () => {
                                       
                                            
                                         </div>
-                                        <h4 className="info-title" style={{ marginBottom: 20 }}>Increased Operational Productivity</h4>
+                                        <h4 className="info-title" style={{ marginBottom: 20 ,fontSize:18, fontWeight:"bold" }}>Increased Operational Productivity</h4>
                                         <hr className="line-warning" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20,fontSize:16 }}>
                                         By automating routine tasks and improving communication channels, management systems empower teams to work more effectively, resulting in higher overall productivity. </p>
                                     </div>
                                 </Col>
@@ -408,9 +402,9 @@ const Management = () => {
                                             <MiscellaneousServicesIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
                                            
                                         </div>
-                                        <h4 className="info-title" style={{ marginBottom: 20 }}>Enhanced Service Delivery</h4>
+                                        <h4 className="info-title" style={{ marginBottom: 20 ,fontSize:18, fontWeight:"bold" }}>Enhanced Service Delivery</h4>
                                         <hr className="line-success" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20 ,fontSize:16 }}>
                                         These systems organize and optimize workflows, leading to more consistent, reliable, and timely delivery of services.
                                         </p>
                                     </div>

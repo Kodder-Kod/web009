@@ -35,9 +35,9 @@ const CategoryCard = ({img : img1, title, desc, icon: Icon }) => {
           <h4>
             {title}
           </h4>
-          <h5>
+          <a href={desc}>
             {desc}
-          </h5>
+          </a>
         </div>
       </CardBody>
     </Card>

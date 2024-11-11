@@ -161,7 +161,7 @@ export default function JavaScript() {
                   className="btn-neutral btn-icon"
                   color="default"
                   href="#pablo"
-                  onClick={(e) => e.preventDefault()}
+                  
                 >
                   <img alt="..." src={require("../../assets/img/github.svg")} />
                 </Button>
@@ -169,7 +169,7 @@ export default function JavaScript() {
                   className="btn-neutral btn-icon"
                   color="default"
                   href="#pablo"
-                  onClick={(e) => e.preventDefault()}
+                  
                 >
                   <img alt="..." src={require("../../assets/img/google.svg")} />
                 </Button>

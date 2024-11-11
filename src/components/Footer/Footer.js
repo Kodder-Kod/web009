@@ -19,22 +19,22 @@ export default function Footer() {
       <Container>
         <Row>
           <Col md="3">
-            <h1 className="title">Chi-Send</h1>
+            <h1 className="h1-seo"  style={{fontSize:35}}>Chisend</h1>
           </Col>
           <Col md="3">
             <Nav>
               <NavItem>
-                <NavLink  href="#Home">
+                <NavLink  href="/#Home">
                   Home
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink  href="#services">
+                <NavLink  href="/#services">
                   Services
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink  href="#about">
+                <NavLink  href="/#about">
                   About Us
                 </NavLink>
               </NavItem>
@@ -43,17 +43,17 @@ export default function Footer() {
           <Col md="3">
             <Nav>
               <NavItem>
-                <NavLink  href="#portfolio">
+                <NavLink  href="/#portfolio">
                 Portfolio
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink  href="#testimony">
+                <NavLink  href="/#testimony">
                   Testimonies
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink  href="#contact">
+                <NavLink  href="/#contact">
                   Contact Us
                 </NavLink>
               </NavItem>
@@ -90,7 +90,7 @@ export default function Footer() {
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
                 color="default"
-                href="https://dribbble.com/"
+                href="/"
                 id="tooltip318450378"
                 target="_blank"
               >

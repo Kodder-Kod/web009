@@ -93,11 +93,11 @@ const pricingPlans = [
             "Email integration",
             "Basic reporting"
         ],
-        img: require("../../../assets/img/bitcoin.png"),
+        img: require("../../../assets/img/services/medal.png"),
         buttonColor: "primary"
     },
     {
-        title: "Intermediate Package",
+       title: "Advanced Package",
         description: "Best Value",
         price: "Ksh 700/month",
         features: [
@@ -108,11 +108,11 @@ const pricingPlans = [
             "Customizable dashboards",
             "Basic analytics"
         ],
-        img: require("../../../assets/img/bitcoin.png"),
+        img: require("../../../assets/img/services/belt.png"),
         buttonColor: "success"
     },
     {
-        title: "Advanced Package",
+        title: "Premium Package",
         description: "Premium Plan",
         price: "Ksh 1200/month",
         features: [
@@ -125,7 +125,7 @@ const pricingPlans = [
             "Custom workflows",
             "24/7 premium support"
         ],
-        img: require("../../../assets/img/bitcoin.png"),
+        img: require("../../../assets/img/services/crown.png"),
         buttonColor: "info"
     }
 ];
@@ -180,52 +180,47 @@ const Crm = () => {
                 <div className="content-center">
                     <Row className="row-grid justify-content-between align-items-center text-left">
                         <Col lg="6" md="6">
-                            <h1 className="text-white">
+                        <h3 className=" sm:text-5xl font-semibold text-black  " style={{ fontSize: 35, fontWeight: "bold", }}>
+            
                                 Customer Relationship Management (CRM)
 
-                            </h1>
-                            <p className="text-white mb-3">
+                            </h3>
+                            <p className="text-white mb-3" style={{fontSize:16}}>
                                 CRM systems help businesses manage interactions with current and potential customers. They centralize customer information, streamline communication, and support sales management. CRMs enhance customer satisfaction and loyalty by providing a comprehensive view of customer interactions and history.
 
 
                             </p>
                             <div className="btn-wrapper mb-3">
                                 <p className="category text-success d-inline">
-                                    Download App
+                                  Social Media  
                                 </p>
                                 <Button
                                     className="btn-link"
                                     color="success"
                                     href="#pablo"
-                                    onClick={(e) => e.preventDefault()}
+                                    
                                     size="sm"
                                 >
+
                                     <i className="tim-icons icon-minimal-right" />
                                 </Button>
                             </div>
                             <div className="btn-wrapper">
                                 <div className="button-container">
+                                
                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/"
+                                       
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
-                                    <Button
+                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                    >
-                                        <i className="fab fa-dribbble" />
-                                    </Button>
-                                    <Button
-                                        className="btn-icon btn-simple btn-round btn-neutral"
-                                        color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://facebook.com/"
+                                       
                                     >
                                         <i className="fab fa-facebook" />
                                     </Button>
@@ -250,7 +245,7 @@ const Crm = () => {
                     <Row className="justify-content-center">
                         <Col lg="12">
                             <div >
-                                <h1 className="text-center">Your best benefit</h1>
+                                 <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>Your benefits</h3>
                             </div>
 
                             <Row className="row-grid justify-content-center" >
@@ -261,7 +256,7 @@ const Crm = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Improved Customer Relationships: </h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                             Better engagement through personalized communication and targeted marketing, leading to increased customer satisfaction and loyalty.
                                         </p>
                                     </div>
@@ -273,7 +268,7 @@ const Crm = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Data Centralization</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                             A unified database of customer information ensures that all departments have access to up-to-date customer data, improving collaboration and service delivery.
                                         </p>
                                     </div>
@@ -286,7 +281,7 @@ const Crm = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>Sales Tracking:</h4>
                                         <hr className="line-warning" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                             Manage and analyze sales pipelines to optimize sales strategies and improve conversion rates.
                                         </p>
                                     </div>
@@ -299,7 +294,7 @@ const Crm = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>Automation </h4>
                                         <hr className="line-success" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                             Automate repetitive tasks such as follow-ups and marketing campaigns, freeing up time for sales teams to focus on building relationships.h.
                                         </p>
                                     </div>
@@ -318,10 +313,10 @@ const Crm = () => {
                     <Row style={{ display: "flex", alignItems: "center", justifyContent: 'center' }} >
                         <Col md="4" style={{ marginTop: 100 }}>
                             <div style={{ display: "flex", alignItems: "center", justifyContent: 'center' }}>
-                                <h1>
+                                  <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>
                                     Pricing
                                     <hr className="line-info" />
-                                </h1>
+                                </h3>
                             </div>
 
                         </Col>

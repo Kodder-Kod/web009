@@ -14,7 +14,7 @@ import { FaHandsHelping } from "react-icons/fa";
 import PointOfSaleIcon from '@mui/icons-material/PointOfSale';
 
 import AddBusinessIcon from '@mui/icons-material/AddBusiness';
-import CategoryCard from  "../../components/client/page";
+import CategoryCard from "../../components/client/page";
 
 import PrecisionManufacturingIcon from '@mui/icons-material/PrecisionManufacturing';
 
@@ -28,7 +28,7 @@ import { AiFillAndroid } from "react-icons/ai";
 
 import AddCardIcon from '@mui/icons-material/AddCard';
 // react plugin used to create charts
- 
+
 // reactstrap components
 import {
     //  Button,
@@ -84,11 +84,11 @@ import {
 
 import { Stack } from "@mui/system";
 import BusinessIcon from '@mui/icons-material/Business';
-import ExamplesNavbar from  "../../components/Navbars/ExamplesNavbar.js";
-import Footer from  "../../components/Footer/Footer.js";
-import Services from  '../../components/PageHeader/Services';
-import IndexNavbar from  '../../components/Navbars/IndexNavbar';
-import ContactApi from  '../../components/PageHeader/Contact';
+import ExamplesNavbar from "../../components/Navbars/ExamplesNavbar.js";
+import Footer from "../../components/Footer/Footer.js";
+import Services from '../../components/PageHeader/Services';
+import IndexNavbar from '../../components/Navbars/IndexNavbar';
+import ContactApi from '../../components/PageHeader/Contact';
 
 const CATEGORIES = [
     {
@@ -184,50 +184,53 @@ const Business = () => {
                 <img
                     alt="..."
                     className="path"
-                     src={require("../../assets/img/blob.png")}
+                    src={require("../../assets/img/blob.png")}
                 />
                 <img
                     alt="..."
                     className="path2"
-                     src={require("../../assets/img/path2.png")}
+                    src={require("../../assets/img/path2.png")}
                 />
                 <img
                     alt="..."
                     className="shapes triangle"
-                     src={require("../../assets/img/triunghiuri.png")}
+                    src={require("../../assets/img/triunghiuri.png")}
                 />
                 <img
                     alt="..."
                     className="shapes wave"
-                     src={require("../../assets/img/waves.png")}
+                    src={require("../../assets/img/waves.png")}
                 />
                 <img
                     alt="..."
                     className="shapes squares"
-                     src={require("../../assets/img/patrat.png")}
+                    src={require("../../assets/img/patrat.png")}
                 />
                 <img
                     alt="..."
                     className="shapes circle"
-                     src={require("../../assets/img/cercuri.png")}
+                    src={require("../../assets/img/cercuri.png")}
                 />
                 <div className="content-center">
                     <Row className="row-grid justify-content-between align-items-center text-left">
                         <Col lg="6" md="6">
-                            <h1 className="text-white">
+                            <h3 className=" sm:text-5xl font-semibold text-black  " style={{ fontSize: 35, fontWeight: "bold", }}>
                                 Business Solutions
+                            </h3>
 
-                            </h1>
-                            <p className="text-white mb-3">
-                                Business solutions are essential tools that help companies streamline operations, improve customer relations, and enhance overall productivity. Whether you're a small business or a large enterprise, implementing the right business solutions can lead to significant improvements in efficiency and profitability.
+                            <p className="text-white mb-3" style={{ fontSize: 16 }}>
+                                Our business solutions streamline operations, improve customer interactions, and drive growth. With POS for efficient transactions, CRM for customer management, ERP for integrated processes, eCommerce for online selling, Payroll for accurate payments, and SACCO systems for financial services, each product simplifies processes and boosts productivity. This guide highlights each solution’s benefits for your business needs.
                             </p>
-                            <div className="btn-wrapper mb-3">
 
+                            <div className="btn-wrapper mb-3">
+                                <p className="category text-success d-inline">
+                                Social Media  
+                                </p>
                                 <Button
                                     className="btn-link"
                                     color="success"
-                                    href="#pablo"
-                                    onClick={(e) => e.preventDefault()}
+                                    href="#Services"
+
                                     size="sm"
                                 >
                                     <i className="tim-icons icon-minimal-right" />
@@ -238,24 +241,17 @@ const Business = () => {
                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/"
+
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
+
                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                    >
-                                        <i className="fab fa-dribbble" />
-                                    </Button>
-                                    <Button
-                                        className="btn-icon btn-simple btn-round btn-neutral"
-                                        color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://facebook.com/"
+
                                     >
                                         <i className="fab fa-facebook" />
                                     </Button>
@@ -266,7 +262,7 @@ const Business = () => {
                             <img
                                 alt="..."
                                 className="img-fluid"
-                                 src={require("../../assets/img/services/biz.jpeg")}
+                                src={require("../../assets/img/services/biz.jpeg")}
                             />
                         </Col>
                     </Row>
@@ -298,11 +294,11 @@ const Business = () => {
 
                         <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8 ">
 
-                            <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 40, fontWeight: "bold", }}>Empower Your Business</h3>
+                            <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>Empower Your Business</h3>
 
-                            <h3 className=" sm:text-5xl font-semibold text-black text-center mb-5" style={{ fontSize: 15, }}>
+                            <p className=" sm:text-5xl font-semibold text-black text-center mb-5" style={{ fontSize: 16, }}>
                                 Discover our cutting-edge IT solutions designed to drive innovation and efficiency. From bespoke software and management systems to comprehensive data analysis and robust networking infrastructure, we provide the tools to transform and elevate your business operations. Let us help you achieve your goals with our expert services.
-                            </h3>
+                            </p>
                         </div>
 
                         <Grid container spacing={1}>
@@ -340,7 +336,7 @@ const Business = () => {
                                                 </div>
                                             </div>
                                             <div style={{ display: "flex", alignItems: "center", justifyContent: 'center' }}>
-                                                <Typography variant="body2" sx={{ color: 'grey.400', }} style={{ fontStyle: "light" }} >
+                                                <Typography variant="body2" sx={{ color: 'grey.400', }} style={{ fontStyle: "light", }} >
                                                     {item.description}
                                                 </Typography>
                                             </div>
@@ -366,7 +362,9 @@ const Business = () => {
                     <Row className="justify-content-center">
                         <Col lg="12">
                             <div >
-                                <h1 className="text-center">Your best benefit</h1>
+
+                                <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>Your benefits</h3>
+
                             </div>
 
                             <Row className="row-grid justify-content-center" >
@@ -375,9 +373,9 @@ const Business = () => {
                                         <div className="icon icon-primary" style={{ marginBottom: 10 }}>
                                             <WebhookIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
                                         </div>
-                                        <h4 className="info-title" style={{ marginBottom: 20 }} >Streamlined Operations</h4>
+                                        <h4 className="info-title" style={{ marginBottom: 20, fontSize: 18, fontWeight: "bold" }} >Streamlined Operations</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                        <p style={{ marginBottom: 20, fontSize: 16 }} >
                                             Business solutions automate processes and workflows, reducing manual effort and improving operational efficiency
                                         </p>
                                     </div>
@@ -388,9 +386,9 @@ const Business = () => {
                                             <SupportAgentRoundedIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
 
                                         </div>
-                                        <h4 className="info-title" style={{ marginBottom: 20 }}>Enhanced Customer Relations:</h4>
+                                        <h4 className="info-title" style={{ marginBottom: 20, fontWeight: "bold", fontSize: 18, }}>Enhanced Customer Relations:</h4>
                                         <hr className="line-warning" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20, fontSize: 16, }}>
                                             These solutions often include CRM (Customer Relationship Management) tools that help businesses manage and strengthen relationships with customers, leading to better satisfaction and retention.
 
 
@@ -403,9 +401,9 @@ const Business = () => {
                                             <PrecisionManufacturingIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
 
                                         </div>
-                                        <h4 className="info-title" style={{ marginBottom: 20 }}>Improved Productivity</h4>
+                                        <h4 className="info-title" style={{ marginBottom: 20, fontWeight: "bold", fontSize: 18 }}>Improved Productivity</h4>
                                         <hr className="line-success" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20, fontSize: 16, }}>
                                             By optimizing tasks and providing tools for collaboration and communication, business solutions boost overall productivity within the organization.
                                         </p>
                                     </div>

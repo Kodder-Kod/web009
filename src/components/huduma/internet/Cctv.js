@@ -97,11 +97,11 @@ const pricingPlans = [
         "Basic recording features",
         "Email support"
       ],
-      img: require("../../../assets/img/bitcoin.png"), // Corrected image format
+      img: require("../../../assets/img/services/medal.png"), // Corrected image format
       buttonColor: "primary"
     },
     {
-      title: "Intermediate Package",
+     title: "Advanced Package",
       description: "Best Value",
       price: "Ksh 35,000",
       features: [
@@ -112,11 +112,11 @@ const pricingPlans = [
         "Motion detection alerts",
         "Installation assistance"
       ],
-      img: require("../../../assets/img/bitcoin.png"), // Corrected image format
+      img: require("../../../assets/img/services/belt.png"), // Corrected image format
       buttonColor: "success"
     },
     {
-      title: "Advanced Package",
+      title: "Premium Package",
       description: "Premium Plan",
       price: "Ksh 80,000",
       features: [
@@ -129,7 +129,7 @@ const pricingPlans = [
         "Customizable settings",
         "Full system documentation"
       ],
-      img: require("../../../assets/img/bitcoin.png"), // Corrected image format
+      img: require("../../../assets/img/services/crown.png"), // Corrected image format
       buttonColor: "info"
     }
   ];
@@ -184,21 +184,22 @@ const Cctv = () => {
                 <div className="content-center">
                     <Row className="row-grid justify-content-between align-items-center text-left">
                         <Col lg="6" md="6">
-                            <h1 className="text-white">
+                            <h3 className=" sm:text-5xl font-semibold text-black  " style={{ fontSize: 35, fontWeight: "bold", }}>
+            
                             CCTVs
-                            </h1>
-                            <p className="text-white mb-3">
+                            </h3>
+                            <p className="text-white mb-3" style={{ fontSize: 16 }}>
                             CCTV systems are essential for surveillance and security monitoring. They provide real-time video footage, allowing businesses to monitor their premises, deter criminal activities, and enhance safety measures.
                             </p>
                             <div className="btn-wrapper mb-3">
                                 <p className="category text-success d-inline">
-                                    Order Now
+                                Social Media  
                                 </p>
                                 <Button
                                     className="btn-link"
                                     color="success"
                                     href="#pablo"
-                                    onClick={(e) => e.preventDefault()}
+                                    
                                     size="sm"
                                 >
                                     <i className="tim-icons icon-minimal-right" />
@@ -209,24 +210,24 @@ const Cctv = () => {
                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                    >
-                                        <i className="fab fa-twitter" />
-                                    </Button>
-                                    <Button
-                                        className="btn-icon btn-simple btn-round btn-neutral"
-                                        color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="#pricing"
+                                       
                                     >
                                         <i className="fab fa-dribbble" />
                                     </Button>
                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/"
+                                       
+                                    >
+                                        <i className="fab fa-twitter" />
+                                    </Button>
+                                     <Button
+                                        className="btn-icon btn-simple btn-round btn-neutral"
+                                        color="default"
+                                        href="https://facebook.com/"
+                                       
                                     >
                                         <i className="fab fa-facebook" />
                                     </Button>
@@ -251,7 +252,7 @@ const Cctv = () => {
                     <Row className="justify-content-center">
                         <Col lg="12">
                             <div >
-                                <h1 className="text-center">Your best benefit</h1>
+                                 <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>Your benefits</h3>
                             </div>
 
                             <Row className="row-grid justify-content-center" >
@@ -263,7 +264,7 @@ const Cctv = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Crime Deterrence</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                         Visible CCTV cameras act as a deterrent to potential criminals, reducing the likelihood of theft or vandalism.
                                         </p>
                                     </div>
@@ -275,7 +276,7 @@ const Cctv = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Real-Time Monitoring</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                         Provides live video feeds, allowing for immediate response to suspicious activities and incidents.
                                         </p>
                                     </div>
@@ -288,7 +289,7 @@ const Cctv = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>Evidence Collection</h4>
                                         <hr className="line-warning" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                         Records video footage that can be used as evidence in investigations and legal proceedings, ensuring accountability.
                                         </p>
                                     </div>
@@ -301,7 +302,7 @@ const Cctv = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>Remote Access</h4>
                                         <hr className="line-success" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20, fontSize:16 }}>
                                         Enables remote monitoring of surveillance feeds via web or mobile apps, providing flexibility and peace of mind.
                                         </p>
                                     </div>
@@ -320,10 +321,10 @@ const Cctv = () => {
                     <Row style={{ display: "flex", alignItems: "center", justifyContent: 'center' }} >
                         <Col md="4" style={{ marginTop: 100 }}>
                             <div style={{ display: "flex", alignItems: "center", justifyContent: 'center' }}>
-                                <h1>
+                                  <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>
                                     Pricing
                                     <hr className="line-info" />
-                                </h1>
+                                </h3>
                             </div>
 
                         </Col>

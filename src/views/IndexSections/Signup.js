@@ -40,7 +40,7 @@ export default function Signup() {
               A beautiful Black Design{" "}
               <span className="text-white">completed with examples</span>
             </h3>
-            <p className="text-white mb-3">
+            <p className="text-white mb-3" style={{ fontSize: 16 }}>
               The Design System comes with four pre-built pages to help you get
               started faster. You can change the text and images and you're good
               to go. More importantly, looking at them will give you a picture
@@ -119,7 +119,7 @@ export default function Signup() {
                     <Label check>
                       <Input type="checkbox" />
                       <span className="form-check-sign" />I agree to the{" "}
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <a href="#pablo" >
                         terms and conditions
                       </a>
                       .

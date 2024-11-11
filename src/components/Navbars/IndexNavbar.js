@@ -81,12 +81,12 @@ export default function IndexNavbar() {
             alt="..."
             className="path"
             style={{ width: 200, height: 200, borderRadius: 20 }}
-            src={require("../../assets/img/kanairo/chi-send.png")} />
+            src={require("../../assets/img/kanairo/Chisend.png")} />
 
-          <NavbarBrand to="/" tag={Link} id="navbar-brand">
+          <NavbarBrand to="/" tag={Link} id="navbar-brand" >
 
 
-            <span>Chi-send </span>
+            <span>Chisend </span>
 
           </NavbarBrand>
           <UncontrolledTooltip placement="bottom" target="navbar-brand">
@@ -112,8 +112,8 @@ export default function IndexNavbar() {
           <div className="navbar-collapse-header">
             <Row>
               <Col className="collapse-brand" xs="6">
-                <a href="#about" onClick={(e) => e.preventDefault()}>
-                  CHI-SEND
+                <a href="/" className="h1-seo">
+                  Chisend
                 </a>
               </Col>
               <Col className="collapse-close text-right" xs="6">
@@ -169,38 +169,38 @@ export default function IndexNavbar() {
           <Nav navbar>
 
             <NavItem className="active">
-              <NavLink href="#Home">
+              <NavLink href="/#Home">
                 <FaHome style={{ margin: 3 }} />
                 Home
               </NavLink>
             </NavItem>
             <NavItem className="active">
-              <NavLink href="#services">
+              <NavLink href="/#services">
                 <GrServices style={{ margin: 3 }} />
                 Services
               </NavLink>
             </NavItem>
             <NavItem className="active">
-              <NavLink href="#about">
+              <NavLink href="/#about">
                 <BsInfoCircle style={{ margin: 3 }} />
                 About us
               </NavLink>
             </NavItem>
             <NavItem className="active">
-              <NavLink href="#portfolio" >
+              <NavLink href="/#portfolio" >
                 <SiTicktick style={{ margin: 3 }} />
                 Portfolio
               </NavLink>
             </NavItem>
             
             <NavItem className="active">
-              <NavLink href="#testimony" >
+              <NavLink href="/#testimony" >
                 <FaPeopleGroup style={{ margin: 3 }} />
                 Testimonies
               </NavLink>
             </NavItem>
             <NavItem className="active">
-              <NavLink href="#contact">
+              <NavLink href="/#contact">
                 <AiOutlineMessage style={{ margin: 3 }} />
                 Contact
               </NavLink>
@@ -217,7 +217,7 @@ export default function IndexNavbar() {
                 data-toggle="dropdown"
                 href="#pablo"
                 nav
-                onClick={(e) => e.preventDefault()}
+               
               >
                 <i className="fa fa-cogs d-lg-none d-xl-none" />
                 Getting started

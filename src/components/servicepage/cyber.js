@@ -213,21 +213,22 @@ const Cyber = () => {
                 <div className="content-center">
                     <Row className="row-grid justify-content-between align-items-center text-left">
                         <Col lg="6" md="6">
-                            <h1 className="text-white">
+                            <h3 className=" sm:text-5xl font-semibold text-black  " style={{ fontSize: 35, fontWeight: "bold", }}>
+            
                                 e-Cyber Services and IT Consulting
-                            </h1>
-                            <p className="text-white mb-3">
+                            </h3>
+                            <p className="text-white mb-3"  style={{fontSize:16}} >
                                 Ensure smooth IT operations with our help desk and consulting services, providing 24/7 support for e-Citizen, tax management, document handling, and more. Our expertise covers a wide range of IT solutions tailored to meet the unique needs of businesses and individuals. This guide highlights key components within e-Cyber Services and IT Consulting, focusing on Bulk SMS, IT Consulting, Document Making (e.g., menus, Excel, PPT, graphics), Project Management, Taxes in eCitizen and all other eCitizen Assistance, Projects, and Writing Assignments.
                             </p>
                             <div className="btn-wrapper mb-3">
                                 <p className="category text-success d-inline">
-
+                                Social Media  
                                 </p>
                                 <Button
                                     className="btn-link"
                                     color="success"
                                     href="#pablo"
-                                    onClick={(e) => e.preventDefault()}
+                                   
                                     size="sm"
                                 >
                                     <i className="tim-icons icon-minimal-right" />
@@ -238,24 +239,17 @@ const Cyber = () => {
                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/"
+                                       
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
+                                  
                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                    >
-                                        <i className="fab fa-dribbble" />
-                                    </Button>
-                                    <Button
-                                        className="btn-icon btn-simple btn-round btn-neutral"
-                                        color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://facebook.com/"
+                                       
                                     >
                                         <i className="fab fa-facebook" />
                                     </Button>
@@ -295,12 +289,12 @@ const Cyber = () => {
                     >
 
                         <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8 ">
-                            <h3 className="sm:text-5xl font-semibold text-black text-center" style={{ fontSize: 30, fontWeight: "bold" }}>
+                            <h3 className="sm:text-5xl font-semibold text-black text-center" style={{ fontSize: 35, fontWeight: "bold" }}>
                                 Cutting-Edge IT Services
                             </h3>
-                            <h3 className="sm:text-2xl font-semibold text-black text-center mb-5" style={{ fontSize: 16 }}>
+                            <p className="sm:text-2xl font-semibold text-black text-center mb-5" style={{ fontSize: 16 }}>
                                 Discover a realm of innovative IT services designed to supercharge your business. From custom software and dynamic web/app development to insightful data analysis, robust networking solutions, and dedicated help desk support, our expert team is here to propel your success. Experience the difference and let us craft the perfect IT strategy to meet your unique needs.
-                            </h3>
+                            </p>
                         </div>
 
 
@@ -368,7 +362,7 @@ const Cyber = () => {
                     <Row className="justify-content-center">
                         <Col lg="12">
                             <div >
-                                <h1 className="text-center">Your best benefit</h1>
+                                <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>Your benefits</h3>
                             </div>
 
                             <Row className="row-grid justify-content-center" >
@@ -378,9 +372,9 @@ const Cyber = () => {
 
                                             <AccessTimeFilledIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
                                         </div>
-                                        <h4 className="info-title" style={{ marginBottom: 20 }} >24/7 Support and Help Desk</h4>
-                                        <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                        <h4 className="info-title" style={{ marginBottom: 20, fontSize:18, fontWeight:"bold" }} >24/7 Support and Help Desk</h4>
+                                        <hr className="line-primary" style={{ marginBottom: 20 , }} />
+                                       <p style={{ marginBottom: 20,fontSize:16 }} >
                                             Ensures continuous IT support for e-Citizen services, tax management, document handling, and more, maintaining smooth operations around the clock.
                                         </p>
                                     </div>
@@ -390,9 +384,9 @@ const Cyber = () => {
                                         <div className="icon icon-warning" style={{ marginBottom: 10 }}>
                                             <PodcastsIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
                                         </div>
-                                        <h4 className="info-title" style={{ marginBottom: 20 }}>Wide Range of IT Solutions</h4>
-                                        <hr className="line-warning" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <h4 className="info-title" style={{ marginBottom: 20, fontSize:18, fontWeight:"bold"}}>Wide Range of IT Solutions</h4>
+                                        <hr className="line-warning" style={{ marginBottom: 20  ,}} />
+                                        <p style={{ marginBottom: 20,fontSize:16 }} >
                                             Offers tailored IT solutions covering diverse needs such as Bulk SMS, IT consulting, document creation (e.g., menus, Excel, PPT, graphics), project management, and tax assistance within e-Citizen, catering to both businesses and individuals.
                                         </p>
                                     </div>
@@ -403,9 +397,9 @@ const Cyber = () => {
                                             <SettingsSuggestIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
 
                                         </div>
-                                        <h4 className="info-title" style={{ marginBottom: 20 }}>Expertise and Customization</h4>
+                                        <h4 className="info-title" style={{ marginBottom: 20, fontSize:18, fontWeight:"bold" }}>Expertise and Customization</h4>
                                         <hr className="line-success" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20,fontSize:16 }} >
                                             Provides specialized expertise in various IT domains, ensuring solutions are customized to meet specific business and personal requirements, enhancing efficiency and effectiveness.
                                         </p>
                                     </div>

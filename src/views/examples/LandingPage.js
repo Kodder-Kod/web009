@@ -69,11 +69,12 @@ export default function LandingPage() {
           <div className="content-center">
             <Row className="row-grid justify-content-between align-items-center text-left">
               <Col lg="6" md="6">
-                <h1 className="text-white">
+                <h3 className=" sm:text-5xl font-semibold text-black  " style={{ fontSize: 35, fontWeight: "bold", }}>
+            
                   We keep your coin <br />
                   <span className="text-white">secured</span>
-                </h1>
-                <p className="text-white mb-3">
+                </h3>
+                <p className="text-white mb-3" style={{ fontSize: 16 }}>
                   A wonderful serenity has taken possession of my entire soul,
                   like these sweet mornings of spring which I enjoy with my
                   whole heart. I am alone, and feel...
@@ -86,7 +87,7 @@ export default function LandingPage() {
                     className="btn-link"
                     color="success"
                     href="#pablo"
-                    onClick={(e) => e.preventDefault()}
+                    
                     size="sm"
                   >
                     <i className="tim-icons icon-minimal-right" />
@@ -98,7 +99,7 @@ export default function LandingPage() {
                       className="btn-icon btn-simple btn-round btn-neutral"
                       color="default"
                       href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      
                     >
                       <i className="fab fa-twitter" />
                     </Button>
@@ -106,7 +107,7 @@ export default function LandingPage() {
                       className="btn-icon btn-simple btn-round btn-neutral"
                       color="default"
                       href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      
                     >
                       <i className="fab fa-dribbble" />
                     </Button>
@@ -114,7 +115,7 @@ export default function LandingPage() {
                       className="btn-icon btn-simple btn-round btn-neutral"
                       color="default"
                       href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      
                     >
                       <i className="fab fa-facebook" />
                     </Button>
@@ -247,7 +248,7 @@ export default function LandingPage() {
                     <a
                       className="font-weight-bold text-info mt-5"
                       href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      
                     >
                       Show all{" "}
                       <i className="tim-icons icon-minimal-right text-info" />
@@ -277,7 +278,7 @@ export default function LandingPage() {
           <Container>
             <Row className="justify-content-center">
               <Col lg="12">
-                <h1 className="text-center">Your best benefit</h1>
+                 <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>Your benefits</h3>
                 <Row className="row-grid justify-content-center">
                   <Col lg="3">
                     <div className="info">

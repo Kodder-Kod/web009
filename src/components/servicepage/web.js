@@ -214,21 +214,21 @@ const Web = () => {
                 <div className="content-center">
                     <Row className="row-grid justify-content-between align-items-center text-left">
                         <Col lg="6" md="6">
-                            <h1 className="text-white">
+                        <h3 className=" sm:text-5xl font-semibold text-black  " style={{ fontSize: 35, fontWeight: "bold", }}>
                                 Custom Web / App Development
-                            </h1>
-                            <p className="text-white mb-3">
+                            </h3>
+                            <p className="text-white mb-3" style={{fontSize:16}} >
                                 Create a unique presence with custom web and app development. Our creativity and expertise ensure the best functionality and experience. We offer tailored solutions that cater to your specific business needs, providing comprehensive services from design to deployment. This guide highlights key components within custom web and app development, focusing on Ads, API Development, Hosting, Testing, and Web Security.
                             </p>
                             <div className="btn-wrapper mb-3">
                                 <p className="category text-success d-inline">
-
+                                Social Media  
                                 </p>
                                 <Button
                                     className="btn-link"
                                     color="success"
-                                    href="#pablo"
-                                    onClick={(e) => e.preventDefault()}
+                                    href="#Services"
+                                    
                                     size="sm"
                                 >
                                     <i className="tim-icons icon-minimal-right" />
@@ -239,24 +239,17 @@ const Web = () => {
                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/"
+                                        
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
+                               
                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                    >
-                                        <i className="fab fa-dribbble" />
-                                    </Button>
-                                    <Button
-                                        className="btn-icon btn-simple btn-round btn-neutral"
-                                        color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://facebook.com/"
+                                        
                                     >
                                         <i className="fab fa-facebook" />
                                     </Button>
@@ -299,12 +292,12 @@ const Web = () => {
 
 
                         <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8 ">
-                            <h3 className="sm:text-4xl semibold text-white text-center" style={{ fontSize: 30, fontWeight: "bold" }}>
+                            <h3 className="sm:text-4xl semibold text-white text-center" style={{ fontSize: 35, fontWeight: "bold" }}>
                                 Tailored Web & App Development
                             </h3>
-                            <h3 className="sm:text-xl font-semibold text-white text-center mb-5" style={{ fontSize: 16 }}>
+                            <p className="sm:text-xl font-semibold text-white text-center mb-5" style={{ fontSize: 16 }}>
                                 Stand out with custom web and app development designed to fit your unique business needs. Our expert team combines creativity and technical skill to deliver top-notch functionality and user experience. From initial design to final deployment, we provide end-to-end solutions including Ads, API Development, Hosting, Testing, and Web Security. Let us help you create a powerful digital presence that drives success.
-                            </h3>
+                            </p>
                         </div>
 
 
@@ -371,7 +364,8 @@ const Web = () => {
                     <Row className="justify-content-center">
                         <Col lg="12">
                             <div >
-                                <h1 className="text-center">Your best benefit</h1>
+                            <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>Your benefits</h3>
+
                             </div>
 
                             <Row className="row-grid justify-content-center" >
@@ -381,9 +375,9 @@ const Web = () => {
 
                                             <ApiIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
                                         </div>
-                                        <h4 className="info-title" style={{ marginBottom: 20 }} >Tailored Solution</h4>
+                                        <h4 className="info-title" style={{ marginBottom: 20 ,fontSize:18, fontWeight:"bold" }} >Tailored Solution</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                        <p style={{ marginBottom: 20 ,fontSize:16 }} >
                                             Specifically designed to meet your unique business needs, ensuring optimal functionality.
                                         </p>
                                     </div>
@@ -393,9 +387,9 @@ const Web = () => {
                                         <div className="icon icon-warning" style={{ marginBottom: 10 }}>
                                             <WebIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
                                         </div>
-                                        <h4 className="info-title" style={{ marginBottom: 20 }}>Enhanced User Experience:</h4>
+                                        <h4 className="info-title" style={{ marginBottom: 20 ,fontSize:18, fontWeight:"bold"}}>Enhanced User Experience:</h4>
                                         <hr className="line-warning" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20 ,fontSize:16  }}>
                                             Custom development focuses on intuitive design and efficient performance, improving user satisfaction.
                                         </p>
                                     </div>
@@ -405,9 +399,9 @@ const Web = () => {
                                         <div className="icon icon-success" style={{ marginBottom: 20 }}>
                                             <ManageHistoryIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
                                         </div>
-                                        <h4 className="info-title" style={{ marginBottom: 20 }}>Comprehensive Services</h4>
+                                        <h4 className="info-title" style={{ marginBottom: 20,fontSize:18, fontWeight:"bold" }}>Comprehensive Services</h4>
                                         <hr className="line-success" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20,fontSize:16  }}>
                                             From initial design to deployment, includes API development, testing, and robust security measures for a complete solution.
                                         </p>
                                     </div>

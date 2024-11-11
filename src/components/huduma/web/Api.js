@@ -89,20 +89,20 @@ const pricingPlans = [
     {
       title: "Basic Package",
       description: "Entry Plan",
-      price: "Ksh 10,000/month",
+      price: "Ksh 10,000",
       features: [
         "Basic API creation",
         "Documentation support",
         "Email support",
         "Monthly updates"
       ],
-      img: require("../../../assets/img/bitcoin.png"), // Corrected image format
+      img: require("../../../assets/img/services/medal.png"), // Corrected image format
       buttonColor: "primary"
     },
     {
-      title: "Intermediate Package",
+     title: "Advanced Package",
       description: "Best Value",
-      price: "Ksh 20,000/month",
+      price: "Ksh 20,000",
       features: [
         "Custom API design",
         "Integration support",
@@ -111,13 +111,13 @@ const pricingPlans = [
         "Support via email and chat",
         "Security features"
       ],
-      img: require("../../../assets/img/bitcoin.png"), // Corrected image format
+      img: require("../../../assets/img/services/belt.png"), // Corrected image format
       buttonColor: "success"
     },
     {
-      title: "Advanced Package",
+      title: "Premium Package",
       description: "Premium Plan",
-      price: "Ksh 30,000/month",
+      price: "Ksh 30,000",
       features: [
         "Comprehensive API development",
         "Multi-platform integration",
@@ -128,7 +128,7 @@ const pricingPlans = [
         "Version control management",
         "Ongoing consultation"
       ],
-      img: require("../../../assets/img/bitcoin.png"), // Corrected image format
+      img: require("../../../assets/img/services/crown.png"), // Corrected image format
       buttonColor: "info"
     }
   ];
@@ -184,21 +184,22 @@ const Api = () => {
                 <div className="content-center">
                     <Row className="row-grid justify-content-between align-items-center text-left">
                         <Col lg="6" md="6">
-                            <h1 className="text-white">
+                            <h3 className=" sm:text-5xl font-semibold text-black  " style={{ fontSize: 35, fontWeight: "bold", }}>
+            
                                 API Development
-                            </h1>
-                            <p className="text-white mb-3">
+                            </h3>
+                            <p className="text-white mb-3" style={{ fontSize: 16 }}>
                                 API development involves creating application programming interfaces that allow different software systems to communicate and interact seamlessly. APIs are essential for integrating various services and enhancing functionality.
                             </p>
                             <div className="btn-wrapper mb-3">
                                 <p className="category text-success d-inline">
-                                    Order Now
+                                Social Media  
                                 </p>
                                 <Button
                                     className="btn-link"
                                     color="success"
                                     href="#pablo"
-                                    onClick={(e) => e.preventDefault()}
+                                   
                                     size="sm"
                                 >
                                     <i className="tim-icons icon-minimal-right" />
@@ -210,7 +211,7 @@ const Api = () => {
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
                                         href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                       
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
@@ -218,7 +219,7 @@ const Api = () => {
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
                                         href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                       
                                     >
                                         <i className="fab fa-dribbble" />
                                     </Button>
@@ -226,7 +227,7 @@ const Api = () => {
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
                                         href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                       
                                     >
                                         <i className="fab fa-facebook" />
                                     </Button>
@@ -251,7 +252,7 @@ const Api = () => {
                     <Row className="justify-content-center">
                         <Col lg="12">
                             <div >
-                                <h1 className="text-center">Your best benefit</h1>
+                                <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>Your benefits</h3>
                             </div>
 
                             <Row className="row-grid justify-content-center" >
@@ -264,7 +265,7 @@ const Api = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Scalability</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                       <p style={{ marginBottom: 20,fontSize:16 }} >
                                             Supports the growth of your application by allowing for the easy addition of new features and services, ensuring your system can scale with your business needs.
                                         </p>
                                     </div>
@@ -276,7 +277,7 @@ const Api = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }} >Interoperability</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                       <p style={{ marginBottom: 20,fontSize:16 }} >
                                             Enables different systems and applications to work together, facilitating seamless data exchange and functionality integration.
                                         </p>
                                     </div>
@@ -289,7 +290,7 @@ const Api = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>Efficiency</h4>
                                         <hr className="line-warning" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20,fontSize:16 }} >
                                             Reduces development time and costs by reusing existing functionalities and services, accelerating the deployment of new applications.
                                         </p>
                                     </div>
@@ -302,7 +303,7 @@ const Api = () => {
                                         </div>
                                         <h4 className="info-title" style={{ marginBottom: 20 }}>Customization</h4>
                                         <hr className="line-success" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20,fontSize:16 }} >
                                             Offers tailored solutions to meet specific business requirements, enhancing the overall user experience and functionality.
                                         </p>
                                     </div>
@@ -319,10 +320,10 @@ const Api = () => {
                     <Row style={{ display: "flex", alignItems: "center", justifyContent: 'center' }} >
                         <Col md="4" style={{ marginTop: 100 }}>
                             <div style={{ display: "flex", alignItems: "center", justifyContent: 'center' }}>
-                                <h1>
+                                  <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>
                                     Pricing
                                     <hr className="line-info" />
-                                </h1>
+                                </h3>
                             </div>
 
                         </Col>

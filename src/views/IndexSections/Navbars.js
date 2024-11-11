@@ -27,7 +27,7 @@ export default function Navbars() {
             <h4>Menu</h4>
             <Navbar className="bg-primary" expand="lg">
               <Container>
-                <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
+                <NavbarBrand href="#pablo" >
                   Menu
                 </NavbarBrand>
                 <button className="navbar-toggler" aria-expanded={false}>
@@ -40,7 +40,7 @@ export default function Navbars() {
                     <NavItem className="active">
                       <NavLink
                         href="#pablo"
-                        onClick={(e) => e.preventDefault()}
+                        
                       >
                         <p>Link</p>
                       </NavLink>
@@ -48,7 +48,7 @@ export default function Navbars() {
                     <NavItem>
                       <NavLink
                         href="#pablo"
-                        onClick={(e) => e.preventDefault()}
+                        
                       >
                         <p>Link</p>
                       </NavLink>
@@ -69,19 +69,19 @@ export default function Navbars() {
                       <DropdownMenu aria-labelledby="navbarDropdownMenuLink">
                         <DropdownItem
                           href="#pablo"
-                          onClick={(e) => e.preventDefault()}
+                          
                         >
                           Action
                         </DropdownItem>
                         <DropdownItem
                           href="#pablo"
-                          onClick={(e) => e.preventDefault()}
+                          
                         >
                           Another action
                         </DropdownItem>
                         <DropdownItem
                           href="#pablo"
-                          onClick={(e) => e.preventDefault()}
+                          
                         >
                           Something else here
                         </DropdownItem>
@@ -96,7 +96,7 @@ export default function Navbars() {
             <h4>Menu with Icons</h4>
             <Navbar className="bg-info" expand="lg">
               <Container>
-                <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
+                <NavbarBrand href="#pablo" >
                   Icons
                 </NavbarBrand>
                 <button className="navbar-toggler" aria-expanded={false}>
@@ -109,7 +109,7 @@ export default function Navbars() {
                     <NavItem>
                       <NavLink
                         href="#pablo"
-                        onClick={(e) => e.preventDefault()}
+                        
                       >
                         <i aria-hidden={true} className="tim-icons icon-send" />
                       </NavLink>
@@ -117,7 +117,7 @@ export default function Navbars() {
                     <NavItem>
                       <NavLink
                         href="#pablo"
-                        onClick={(e) => e.preventDefault()}
+                        
                       >
                         <i
                           aria-hidden={true}
@@ -133,7 +133,7 @@ export default function Navbars() {
                         href="#pablo"
                         id="navbarDropdownMenuLink"
                         nav
-                        onClick={(e) => e.preventDefault()}
+                        
                       >
                         <i
                           aria-hidden={true}
@@ -147,33 +147,33 @@ export default function Navbars() {
                         <DropdownItem header>Dropdown header</DropdownItem>
                         <DropdownItem
                           href="#pablo"
-                          onClick={(e) => e.preventDefault()}
+                          
                         >
                           Action
                         </DropdownItem>
                         <DropdownItem
                           href="#pablo"
-                          onClick={(e) => e.preventDefault()}
+                          
                         >
                           Another action
                         </DropdownItem>
                         <DropdownItem
                           href="#pablo"
-                          onClick={(e) => e.preventDefault()}
+                          
                         >
                           Something else here
                         </DropdownItem>
                         <div className="divider" />
                         <DropdownItem
                           href="#pablo"
-                          onClick={(e) => e.preventDefault()}
+                          
                         >
                           Separated link
                         </DropdownItem>
                         <div className="divider" />
                         <DropdownItem
                           href="#pablo"
-                          onClick={(e) => e.preventDefault()}
+                          
                         >
                           One more separated link
                         </DropdownItem>
@@ -193,7 +193,7 @@ export default function Navbars() {
           <Navbar className="bg-primary" expand="lg">
             <Container>
               <div className="navbar-translate">
-                <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
+                <NavbarBrand href="#pablo" >
                   Primary color
                 </NavbarBrand>
                 <button className="navbar-toggler" aria-expanded={false}>
@@ -205,19 +205,19 @@ export default function Navbars() {
               <Collapse navbar isOpen={false}>
                 <Nav className="ml-auto" navbar>
                   <NavItem className="active">
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <NavLink href="#pablo" >
                       <i className="tim-icons icon-world" />
                       Discover
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <NavLink href="#pablo" >
                       <i className="tim-icons icon-single-02" />
                       Profile
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <NavLink href="#pablo" >
                       <i className="tim-icons icon-settings-gear-63" />
                       Settings
                     </NavLink>
@@ -231,7 +231,7 @@ export default function Navbars() {
           <Navbar className="bg-info" expand="lg">
             <Container>
               <div className="navbar-translate">
-                <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
+                <NavbarBrand href="#pablo" >
                   Info Color
                 </NavbarBrand>
                 <button className="navbar-toggler" aria-expanded={false}>
@@ -243,17 +243,17 @@ export default function Navbars() {
               <Collapse navbar isOpen={false}>
                 <Nav className="ml-auto" navbar>
                   <NavItem className="active">
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <NavLink href="#pablo" >
                       Discover
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <NavLink href="#pablo" >
                       Profile
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <NavLink href="#pablo" >
                       Settings
                     </NavLink>
                   </NavItem>
@@ -266,7 +266,7 @@ export default function Navbars() {
           <Navbar className="bg-success" expand="lg">
             <Container>
               <div className="navbar-translate">
-                <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
+                <NavbarBrand href="#pablo" >
                   Success Color
                 </NavbarBrand>
                 <button className="navbar-toggler" aria-expanded={false}>
@@ -278,17 +278,17 @@ export default function Navbars() {
               <Collapse navbar isOpen={false}>
                 <Nav className="ml-auto" navbar>
                   <NavItem className="active">
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <NavLink href="#pablo" >
                       <i className="tim-icons icon-world" />
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <NavLink href="#pablo" >
                       <i className="tim-icons icon-single-02" />
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <NavLink href="#pablo" >
                       <i className="tim-icons icon-settings-gear-63" />
                     </NavLink>
                   </NavItem>
@@ -301,7 +301,7 @@ export default function Navbars() {
           <Navbar className="bg-warning" expand="lg">
             <Container>
               <div className="navbar-translate">
-                <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
+                <NavbarBrand href="#pablo" >
                   Warning Color
                 </NavbarBrand>
                 <button className="navbar-toggler" aria-expanded={false}>
@@ -313,22 +313,22 @@ export default function Navbars() {
               <Collapse navbar isOpen={false}>
                 <Nav className="ml-auto" navbar>
                   <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <NavLink href="#pablo" >
                       <i className="fab fa-facebook-square" />
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <NavLink href="#pablo" >
                       <i className="fab fa-twitter" />
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <NavLink href="#pablo" >
                       <i className="fab fa-google-plus" />
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <NavLink href="#pablo" >
                       <i className="fab fa-instagram" />
                     </NavLink>
                   </NavItem>
@@ -341,7 +341,7 @@ export default function Navbars() {
           <Navbar className="bg-danger" expand="lg">
             <Container>
               <div className="navbar-translate">
-                <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
+                <NavbarBrand href="#pablo" >
                   Danger Color
                 </NavbarBrand>
                 <button className="navbar-toggler" aria-expanded={false}>
@@ -353,19 +353,19 @@ export default function Navbars() {
               <Collapse navbar isOpen={false}>
                 <Nav className="ml-auto" navbar>
                   <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <NavLink href="#pablo" >
                       <i className="fab fa-facebook-square" />
                       Share
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <NavLink href="#pablo" >
                       <i className="fab fa-twitter" />
                       Tweet
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <NavLink href="#pablo" >
                       <i className="fab fa-pinterest" />
                       Pin
                     </NavLink>
@@ -379,7 +379,7 @@ export default function Navbars() {
           <Navbar className="navbar-transparent" expand="lg">
             <Container>
               <div className="navbar-translate">
-                <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
+                <NavbarBrand href="#pablo" >
                   Transparent
                 </NavbarBrand>
                 <button className="navbar-toggler" aria-expanded={false}>
@@ -391,19 +391,19 @@ export default function Navbars() {
               <Collapse navbar isOpen={false}>
                 <Nav className="ml-auto" navbar>
                   <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <NavLink href="#pablo" >
                       <i className="fab fa-facebook-square" />
                       Facebook
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <NavLink href="#pablo" >
                       <i className="fab fa-twitter" />
                       Twitter
                     </NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <NavLink href="#pablo" >
                       <i className="fab fa-instagram" />
                       Instagram
                     </NavLink>

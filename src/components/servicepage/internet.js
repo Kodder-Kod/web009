@@ -217,21 +217,21 @@ const Internet = () => {
                 <div className="content-center">
                     <Row className="row-grid justify-content-between align-items-center text-left">
                         <Col lg="6" md="6">
-                            <h1 className="text-white">
+                        <h3 className=" sm:text-5xl font-semibold text-black  " style={{ fontSize: 35, fontWeight: "bold", }}>
                                 Internet and Routing Services
-                            </h1>
-                            <p className="text-white mb-3">
+                            </h3>
+                            <p className="text-white mb-3"  style={{fontSize:16}}>
                                 Internet and routing services are essential for connecting devices and networks, ensuring seamless communication and data transfer. These services include configuring and managing internet connections, setting up routers and network infrastructure, and providing secure and reliable internet access. This guide provides an overview of various categories within internet and routing services, focusing on Biometric and Automatic Gates, CCTVs, Cloud Services, Internet Services and Hotspot, Network Solutions, and SEO.
                             </p>
                             <div className="btn-wrapper mb-3">
                                 <p className="category text-success d-inline">
-                                    Order Now
+                                Social Media  
                                 </p>
                                 <Button
                                     className="btn-link"
                                     color="success"
-                                    href="#pablo"
-                                    onClick={(e) => e.preventDefault()}
+                                    href="#Services"
+                                   
                                     size="sm"
                                 >
                                     <i className="tim-icons icon-minimal-right" />
@@ -242,24 +242,17 @@ const Internet = () => {
                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://twitter.com/"
+                                   
                                     >
                                         <i className="fab fa-twitter" />
                                     </Button>
+                              
                                     <Button
                                         className="btn-icon btn-simple btn-round btn-neutral"
                                         color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
-                                    >
-                                        <i className="fab fa-dribbble" />
-                                    </Button>
-                                    <Button
-                                        className="btn-icon btn-simple btn-round btn-neutral"
-                                        color="default"
-                                        href="#pablo"
-                                        onClick={(e) => e.preventDefault()}
+                                        href="https://facebook.com/"
+                                   
                                     >
                                         <i className="fab fa-facebook" />
                                     </Button>
@@ -302,12 +295,12 @@ const Internet = () => {
 
 
 <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8 ">
-    <h3 className="sm:text-4xl font-semibold text-white text-center" style={{ fontSize: 30, fontWeight: "bold" }}>
+    <h3 className="sm:text-4xl font-semibold text-white text-center" style={{ fontSize: 35, fontWeight: "bold" }}>
         Internet & Routing Services
     </h3>
-    <h3 className="sm:text-xl font-semibold text-white text-center mb-5" style={{ fontSize: 16 }}>
+    <p className="sm:text-xl font-semibold text-white text-center mb-5" style={{ fontSize: 16 }}>
         Ensure seamless connectivity and efficient communication with our expert internet and routing services. We specialize in configuring and managing internet connections, setting up routers and network infrastructure, and delivering secure, reliable internet access. Explore our comprehensive offerings including Biometric and Automatic Gates, CCTV systems, Cloud Services, Internet and Hotspot solutions, Network Solutions, and SEO services, all designed to optimize and protect your digital environment.
-    </h3>
+    </p>
 </div>
 
                         <Grid container spacing={1}>
@@ -373,7 +366,8 @@ const Internet = () => {
                     <Row className="justify-content-center">
                         <Col lg="12">
                             <div >
-                                <h1 className="text-center">Your best benefit</h1>
+
+                            <h3 className=" sm:text-5xl font-semibold text-black text-center " style={{ fontSize: 35, fontWeight: "bold", }}>Your benefits</h3>
                             </div>
 
                             <Row className="row-grid justify-content-center" >
@@ -383,9 +377,9 @@ const Internet = () => {
                                        
                                             <AccountTreeIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
                                         </div>
-                                        <h4 className="info-title" style={{ marginBottom: 20 }} >Enhanced Network Performance</h4>
+                                        <h4 className="info-title" style={{ marginBottom: 20,fontWeight:"bold",fontSize:18, }} >Enhanced Network Performance</h4>
                                         <hr className="line-primary" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }} >
+                                        <p style={{ marginBottom: 20  , fontSize:16,}} >
                                             By setting up routers and optimizing network infrastructure, internet and routing services improve network performance, ensuring faster data transmission and better overall efficiency.
                                         </p>
                                     </div>
@@ -395,9 +389,9 @@ const Internet = () => {
                                         <div className="icon icon-warning" style={{ marginBottom: 10 }}>
                                             < SecurityIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
                                         </div>
-                                        <h4 className="info-title" style={{ marginBottom: 20 }}>Secure and Reliable Access</h4>
+                                        <h4 className="info-title" style={{ marginBottom: 20 ,fontWeight:"bold",fontSize:18, }}>Secure and Reliable Access</h4>
                                         <hr className="line-warning" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20 , fontSize:16, }}>
                                             These services provide secure and reliable internet access, essential for maintaining privacy, protecting data integrity, and preventing unauthorized access.
                                         </p>
                                     </div>
@@ -407,9 +401,9 @@ const Internet = () => {
                                         <div className="icon icon-success" style={{ marginBottom: 20 }}>
                                             <CellWifiIcon sx={{ color: "#00bbff", fontSize: 50 }} />,
                                         </div>
-                                        <h4 className="info-title" style={{ marginBottom: 20 }}>Seamless Connectivity</h4>
+                                        <h4 className="info-title" style={{ marginBottom: 20 ,fontWeight:"bold",fontSize:18, }}>Seamless Connectivity</h4>
                                         <hr className="line-success" style={{ marginBottom: 20 }} />
-                                        <p style={{ marginBottom: 20 }}>
+                                        <p style={{ marginBottom: 20, fontSize:16, }}>
                                             Internet and routing services facilitate seamless communication and data transfer by configuring and managing internet connections, ensuring devices and networks are interconnected effectively.
                                         </p>
                                     </div>
